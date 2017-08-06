@@ -172,7 +172,7 @@ function wp_nav_menu( $args = array() ) {
 	if ( $menu_items_with_children ) {
 		foreach ( $sorted_menu_items as &$menu_item ) {
 			if ( isset( $menu_items_with_children[ $menu_item->ID ] ) )
-				$menu_item->classes[] = 'menu-item-has-children';
+                $menu_item->classes[] = 'menu-item-has-children';
 		}
 	}
 
