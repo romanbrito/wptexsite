@@ -29,7 +29,11 @@
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#main-nav"><?php esc_html_e('Primary Menu', 'texsite'); ?></button>
+                        data-target="#main-nav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <?php
                 the_custom_logo();
                 if (is_front_page() && is_home()) : ?>
