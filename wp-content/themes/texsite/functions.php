@@ -117,13 +117,13 @@ add_action( 'widgets_init', 'texsite_widgets_init' );
  * Enqueue scripts and styles.
  */
 function texsite_scripts() {
-	wp_enqueue_style( 'texsite-style', get_stylesheet_uri() );
-
     //	bootstrap css and js
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri(). '/bootstrap/css/bootstrap.min.css');
 
     wp_enqueue_script('bootstrap', get_stylesheet_directory_uri(). '/bootstrap/js/bootstrap.min.js', array('jquery'), '20170804', true);
     //
+
+    wp_enqueue_style( 'texsite-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'texsite-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20170804', true );
 
