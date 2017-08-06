@@ -19,9 +19,9 @@
 function texsite_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'texsite_custom_header_args', array(
 		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
+		'default-text-color'     => 'ffffff',
+		'width'                  => 1920,
+		'height'                 => 800,
 		'flex-height'            => true,
 		'wp-head-callback'       => 'texsite_header_style',
 	) ) );
