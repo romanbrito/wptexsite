@@ -70,6 +70,10 @@
                 <!--will call sidebar-header if not sidebar-->
                 <?php get_sidebar('header'); ?>
 
+                <!--header image-->
+                <?php the_header_image_tag(); ?>
+
+
             </figure>
         <?php endif; // End header front image ?>
 
