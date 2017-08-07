@@ -129,6 +129,13 @@ add_action( 'widgets_init', 'texsite_widgets_init' );
  */
 function texsite_scripts() {
 
+
+    // materialize css and js
+    // wp_enqueue_style('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css');
+
+    wp_enqueue_script('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js', array(), '20170807', true);
+    //
+
     //	bootstrap css and js
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri(). '/bootstrap/css/bootstrap.min.css');
 
@@ -139,6 +146,8 @@ function texsite_scripts() {
     wp_enqueue_style('texsite-fonts', 'https://fonts.googleapis.com/css?family=Catamaran|Montserrat');
 
     wp_enqueue_style( 'texsite-style', get_stylesheet_uri() );
+
+    wp_enqueue_script( 'texsite-header', get_template_directory_uri() . '/js/header.js', array('jquery'), '20170807', true );
 
     wp_enqueue_script( 'texsite-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20170804', true );
 

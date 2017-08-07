@@ -70,9 +70,11 @@
                 <!--will call sidebar-header if not sidebar-->
                 <?php get_sidebar('header'); ?>
 
-                <!--header image-->
-                <?php the_header_image_tag(); ?>
-
+                <!--scroll fire  our story-->
+                <div id="Scroll_fire" class="containerBox" >
+                    <img id="story-img" class="responsive-img"
+                         src="/wp-content/uploads/2017/08/ourStory.png">
+                </div>
 
             </figure>
         <?php endif; // End header front image ?>
