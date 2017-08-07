@@ -128,6 +128,9 @@ add_action( 'widgets_init', 'texsite_widgets_init' );
  * Enqueue scripts and styles.
  */
 function texsite_scripts() {
+    // Enqueue Google Fonts
+    wp_enqueue_style('texsite-fonts', 'https://fonts.googleapis.com/css?family=Catamaran|Montserrat');
+
     //	bootstrap css and js
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri(). '/bootstrap/css/bootstrap.min.css');
 

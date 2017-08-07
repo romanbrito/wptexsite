@@ -265,7 +265,7 @@ select,
 optgroup,
 textarea {
 	color: #404040;
-	font-family: sans-serif;
+	font-family: "Montserrat", "Lucida Grande", sans-serif;
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1.5;
@@ -427,7 +427,7 @@ img {
 }
 
 figure {
-	margin: 1em 0;
+	margin: 0;
 	/* Extra wide images within figure tags don't overflow the content area. */
 }
 
@@ -527,7 +527,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: #777;
 }
 
 a:visited {
@@ -549,6 +549,10 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.navbar {
+	margin: 0;
+}
+
 span.icon-bar {
 	background: #777;
 }
@@ -749,6 +753,9 @@ span.icon-bar {
 	}
 }
 
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
