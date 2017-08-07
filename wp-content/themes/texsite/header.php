@@ -66,8 +66,10 @@
 
         <?php if ( is_front_page() ) : ?>
             <figure class="header-image">
-                <!--header image-->
-                <?php the_header_image_tag(); ?>
+                <!--header slider-->
+                <!--will call sidebar-header if not sidebar-->
+                <?php get_sidebar('header'); ?>
+
             </figure>
         <?php endif; // End header front image ?>
 
