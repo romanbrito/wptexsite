@@ -69,16 +69,6 @@
                 <!--header slider-->
                 <!--will call sidebar-header if not sidebar-->
                 <?php get_sidebar('header'); ?>
-
-                <!--Our Story title-->
-                <h2 id="StoryTitle">The Original Texas Cheesesteak Est 1981</h2>
-
-                <!--scroll fire  our story-->
-                <div id="Scroll_fire" class="containerBox" >
-                    <img id="story-img" class="responsive-img"
-                         src="/wp-content/uploads/2017/08/ourStory.png">
-                </div>
-
             </figure>
 
         <?php endif; // End header front image ?>
