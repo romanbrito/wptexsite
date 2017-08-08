@@ -25,6 +25,11 @@
 		?>
 	</div><!-- .entry-content -->
 
+<!--    widget-->
+    <?php
+    get_sidebar('frontpage');
+    ?>
+
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
 			<?php

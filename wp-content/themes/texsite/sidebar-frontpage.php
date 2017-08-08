@@ -7,11 +7,11 @@
  * @package Texsite
  */
 
-if ( ! is_active_sidebar( 'header-slider' ) ) {
+if ( ! is_active_sidebar( 'instagram-slider' ) ) {
 	return;
 }
 ?>
 
-<aside id="header-secondary" class="widget-area">
-	<?php dynamic_sidebar( 'header-slider' ); ?>
+<aside id="page-secondary" class="widget-area">
+	<?php dynamic_sidebar( 'instagram-slider' ); ?>
 </aside><!-- #secondary -->

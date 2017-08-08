@@ -111,11 +111,22 @@ function texsite_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
-//header sidebar
+    //header sidebar
     register_sidebar( array(
         'name'          => esc_html__( 'header-widget', 'texsite' ),
         'id'            => 'header-slider',
         'description'   => esc_html__( 'header slide show', 'texsite' ),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+
+    //front page sidebar
+    register_sidebar( array(
+        'name'          => esc_html__( 'frontpage-widget', 'texsite' ),
+        'id'            => 'instagram-slider',
+        'description'   => esc_html__( 'instagram slide show', 'texsite' ),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget'  => '</section>',
         'before_title'  => '<h2 class="widget-title">',
