@@ -154,6 +154,10 @@ function texsite_scripts() {
     wp_enqueue_script('bootstrap', get_stylesheet_directory_uri(). '/bootstrap/js/bootstrap.min.js', array('jquery'), '20170804', true);
     //
 
+    // instagram
+    wp_enqueue_script( 'texsite-instagram', get_template_directory_uri() . '/js/instagramAPI.js', array('jquery'), '20170808', true );
+    //
+
     // Enqueue Google Fonts
     wp_enqueue_style('texsite-fonts', 'https://fonts.googleapis.com/css?family=Catamaran|Montserrat');
 
