@@ -770,6 +770,7 @@ span.icon-bar {
 	/*height: 100%;*/
 	text-align: center;
 	width: 50%;
+	opacity: 0.9;
 }
 
 /*.text-box:before {*/

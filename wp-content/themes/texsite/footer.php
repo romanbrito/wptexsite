@@ -14,6 +14,23 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+
+        <nav id="footer-navegation" class="navbar">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'footer',
+                'menu_id' => 'footer-menu',
+                // bootstrap classes
+                  // div
+                'container_class' => 'collapse navbar-collapse',
+                'container_id' => 'footer-nav',
+                  // <ul> class
+                'menu_class' => 'nav navbar-nav navbar-right',
+            ));
+            ?>
+        </nav>
+
+
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'texsite' ) ); ?>"><?php
 				/* translators: %s: CMS name, i.e. WordPress. */
