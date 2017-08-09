@@ -25,10 +25,13 @@
 		?>
 	</div><!-- .entry-content -->
 
-<!--    widget-->
-    <?php
-    get_sidebar('frontpage');
-    ?>
+    <?php if ( is_front_page() ) : ?>
+        <figure class="instagram-gallery">
+            <?php get_sidebar('frontpage'); ?>
+        </figure>
+
+    <?php endif; // End instagram front image ?>
+
 
 	<?php if ( get_edit_post_link() ) : ?>
 		<footer class="entry-footer">
