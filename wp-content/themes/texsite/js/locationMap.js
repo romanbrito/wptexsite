@@ -1,4 +1,4 @@
-// get Json using plain javascript
+// get Json using plain javascript to avoid conflict with jquery
 var getJSON = function (url, callback) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
