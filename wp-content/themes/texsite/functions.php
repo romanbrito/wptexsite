@@ -147,11 +147,27 @@ function texsite_widgets_init() {
 
 add_action( 'widgets_init', 'texsite_widgets_init' );
 
+// adding async defer to googleMaps-api script ///////////////
+add_filter( 'script_loader_tag', function ( $tag, $handle ) {
+
+    if ( 'googleMaps-api' !== $handle )
+        return $tag;
+
+    return str_replace( ' src', ' async defer src', $tag );
+}, 10, 2 );
+
+
+
 /**
  * Enqueue scripts and styles.
  */
 function texsite_scripts() {
 
+    // location map scripts
+    wp_enqueue_script( 'location-map', get_template_directory_uri() . '/js/locationMap.js', array(), null, true );
+    wp_enqueue_script( 'googleMaps-examples', 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js', array(), null, true );
+    wp_enqueue_script( 'googleMaps-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=initMap', array(),null, true );
+    //
 
     // materialize css and js
     // wp_enqueue_style('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css');
