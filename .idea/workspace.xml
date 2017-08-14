@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad1acf0-9ac2-4b4b-a842-7e6bc8347e9d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="170" column="36" lean-forward="true" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -36,8 +37,8 @@
       <file leaf-file-name="content-page.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="166">
+              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="e#6#152#0#PHP" expanded="true" />
               </folding>
@@ -65,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="locationMap.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="locationMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -163,8 +164,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/json/locations.json" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/mapMarkers.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/mapMarkers.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" />
       </list>
     </option>
   </component>
@@ -304,7 +305,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67956000" />
+    <option name="totallyTimeSpent" value="68874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -676,16 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#152#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -718,14 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/instagramAPI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -738,6 +721,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#152#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="170" column="36" lean-forward="true" selection-start-line="170" selection-start-column="36" selection-end-line="170" selection-end-column="36" />
           <folding />
         </state>
       </provider>
