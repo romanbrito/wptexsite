@@ -166,6 +166,17 @@ add_filter('script_loader_tag', function ($tag, $handle) {
  */
 function texsite_scripts()
 {
+    // materialize css and js
+    // wp_enqueue_style('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css');
+
+    wp_enqueue_script('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js', array(), null, true);
+    //
+
+    //	bootstrap css and js
+    wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/css/bootstrap.min.css');
+
+    wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '20170804', true);
+    //
 
     // location map scripts
     if (is_page('locations-menu')) :
@@ -175,18 +186,6 @@ function texsite_scripts()
         wp_enqueue_script('mustache', 'https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js', array(), null, false);
         wp_enqueue_script('location-search', get_template_directory_uri() . '/js/searchLocation.js', array('jquery'), '20170814', true);
     endif; // End locations page
-    //
-
-    // materialize css and js
-    // wp_enqueue_style('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css');
-
-    wp_enqueue_script('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js', array(), null, false);
-    //
-
-    //	bootstrap css and js
-    wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/css/bootstrap.min.css');
-
-    wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '20170804', true);
     //
 
     // instagram
