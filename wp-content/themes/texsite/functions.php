@@ -180,7 +180,7 @@ function texsite_scripts()
     // materialize css and js
     // wp_enqueue_style('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css');
 
-    wp_enqueue_script('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js', array(), '20170807', true);
+    wp_enqueue_script('materialize', 'https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js', array(), null, false);
     //
 
     //	bootstrap css and js
