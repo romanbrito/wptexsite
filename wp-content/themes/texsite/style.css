@@ -760,26 +760,54 @@ span.icon-bar {
 	text-align: center;
 }
 
-.containerBox {
-	position: relative;
-	display: inline-block;
+@media screen and (max-width: 767px) {
+	.widget-title {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.widget-title {
+		font-size: 1.9em;
+	}
+}
+
+.large-screen {
+	display: none;
+}
+
+@media screen and (min-width: 1500px) {
+	.large-screen {
+		display: inline-block;
+	}
 }
 
 .text-box {
 	position: absolute;
-	/*height: 100%;*/
 	text-align: center;
-	width: 50%;
 	opacity: 0.9;
-	border: solid blue 2px;
 }
 
-/*.text-box:before {*/
-/*content: '';*/
-/*display: inline-block;*/
-/*height: 100%;*/
-/*vertical-align: middle;*/
-/*}*/
+@media screen and (max-width: 767px) {
+	.text-box {
+		font-size: 10px;
+		font-size: 1rem;
+	}
+	.text-box h3 {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+	.text-box {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+	.text-box h3 {
+		font-size: 1.9em;
+	}
+}
+
 img {
 	display: block;
 	max-width: 100%;
