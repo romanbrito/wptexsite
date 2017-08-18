@@ -49,7 +49,7 @@ function initMap() {
         var gMapsClick = data.locations.map(function (location, i) {
             return markers[i].addListener('click', function () {
                 window.open('https://www.google.com/maps/dir/?api=1&destination=' + location.coordinates.lat + ',' + location.coordinates.lng, '_blank');
-            })
+            });
         });
 
         // center to bounds
