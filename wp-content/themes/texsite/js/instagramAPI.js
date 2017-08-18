@@ -14,9 +14,9 @@
         output += '<div class="row">';
 
         output += '<div class="instagram-pic col-lg-1 col-md-2 col-sm-3 col-xs-4">';
-        output += '<div class="">';
+        output += '<div class="instagram-logo">';
         output += '<a href="https://instagram.com/texadelphianation" target="_blank">';
-        output += '<img class="instagram-logo" src=/wp-content/uploads/2017/08/InstagramIcon.png alt="Lights" style="width:100%">';
+        output += '<img src=/wp-content/uploads/2017/08/InstagramIcon.png alt="Lights">';
         output += '<div class="caption">';
         output += '</div>';
         output += '</a>';
