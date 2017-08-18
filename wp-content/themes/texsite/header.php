@@ -25,7 +25,7 @@
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e('Skip to content', 'texsite'); ?></a>
 
     <header id="masthead" class="site-header">
-        <nav id="site-navigation" class="navbar">
+        <nav id="site-navigation" class="navbar nav-pad">
 
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
