@@ -25,7 +25,7 @@
                 'container_class' => 'collapse navbar-collapse',
                 'container_id' => 'footer-nav',
                   // <ul> class
-                'menu_class' => 'nav navbar-nav navbar-right',
+                'menu_class' => 'nav navbar-nav footer-nav',
             ));
             ?>
         </nav>
