@@ -103,3 +103,85 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+<!--/////////////////////-->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" id="map"></div>
+        <div class="col-sm-6 search-location">
+            <div id="search-area">
+                <label for="search">Search Location</label>
+                <p>Enter Name, City or State to find desired location</p>
+                <input type="search" name="search" id="search" placeholder="Name, City, State"/>
+            </div>
+            <div id="update"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="locationbox">
+    <div id="locationInfo"></div>
+</div>
+
+
+
+
+<!--mustache template-->
+<script id="locationtpl" type="text/template">
+    {{#locations}}
+    <div class="modal fade" id="{{label}}menuModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">menu {{name}}</h4>
+                </div>
+                <div class="modal-body">
+                    <p>{{address}}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="{{label}}catModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">catering {{name}}</h4>
+                </div>
+                <div class="modal-body">
+                    <p>{{address}}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/locations}}
+</script>
+<!--mustache script-->
+<script type="text/javascript">
+
+    (function($) {
+
+        $.getJSON('../wp-content/themes/texsite/json/locations.json', function(data) {
+            var template = $('#locationtpl').html();
+            var html = Mustache.to_html(template, data);
+            $('#locationInfo').html(html);
+        }); //getJSON
+    })(jQuery); //function
+
+</script>

@@ -189,7 +189,9 @@ function texsite_scripts()
     //
 
     // instagram
+    if (is_front_page()) :
     wp_enqueue_script('texsite-instagram', get_template_directory_uri() . '/js/instagramAPI.js', array('jquery'), '20170808', true);
+    endif; // End frontpage
     //
 
     // Enqueue Google Fonts
