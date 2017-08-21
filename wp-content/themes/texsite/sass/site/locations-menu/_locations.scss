@@ -5,20 +5,21 @@
   height: 60vh;
 }
 
-///* Optional: Makes the sample page fill the window. */
-//aside#secondary,.textwidget, .custom-html-widget#secondary,#post-1748,#main,#primary,#content,#page,body,#custom_html-10,html {
-  //height: 100%;
-  //margin: 0;
-  //padding: 0;
-//}
-
 .search-location {
   height: 60vh;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 //.section-full {
 //  height:100vh;
 //  min-height:100vh;
 //
+//}
+
+
+///* Optional: Makes the sample page fill the window. */
+//aside#secondary,.textwidget, .custom-html-widget#secondary,#post-1748,#main,#primary,#content,#page,body,#custom_html-10,html {
+//height: 100%;
+//margin: 0;
+//padding: 0;
 //}
