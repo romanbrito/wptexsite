@@ -750,12 +750,37 @@ span.icon-bar {
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
-.large-screen {
+.center {
+	line-height: 200px;
+	height: 200px;
+	border: 3px solid green;
+	text-align: center;
+}
+
+.center p {
+	line-height: 1.5;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.large-screen, .medium-screen {
 	display: none;
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1024px) {
 	.large-screen {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.medium-screen {
 		display: inline-block;
 	}
 }
@@ -764,32 +789,33 @@ span.icon-bar {
 	position: absolute;
 	text-align: center;
 	opacity: 0.9;
+	top: 50%;
+	left: 25%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 767px) {
 	.text-box {
-		font-size: 10px;
-		font-size: 1rem;
+		font-size: 8.6px;
+		font-size: 0.86rem;
+		left: 50%;
+		width: 100%;
 	}
 	.text-box h3 {
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 }
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
 	.text-box {
-		font-size: 14px;
-		font-size: 1.4rem;
+		font-size: 16px;
+		font-size: 1.6rem;
+		left: 50%;
 	}
 	.text-box h3 {
 		font-size: 1.9em;
 	}
-}
-
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
 }
 
 .red-bar {
@@ -811,6 +837,10 @@ img {
 	.our-title {
 		font-size: 1.9em;
 	}
+}
+
+.our-text {
+	position: relative;
 }
 
 /*--------------------------------------------------------------
