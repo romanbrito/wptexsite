@@ -46,7 +46,7 @@ img {
 
 
   @media screen and (max-width: 767px) {
-    @include font-size(.43);
+    @include font-size(.5);
     h3 {
       font-size: 1.4em;
     }
@@ -54,12 +54,13 @@ img {
     width: 100%;
   }
 
-  @media screen and (max-width: 1024px) and (min-width: 768px) {
+  @media screen and (max-width: 1400px) and (min-width: 768px) {
     @include font-size(.8);
     h3 {
       font-size: 1.9em;
     }
     left: 50%;
+    width: 100%;
   }
 
 }

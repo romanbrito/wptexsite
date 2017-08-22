@@ -797,8 +797,8 @@ img {
 
 @media screen and (max-width: 767px) {
 	.text-box {
-		font-size: 8.6px;
-		font-size: 0.86rem;
+		font-size: 10px;
+		font-size: 1rem;
 		left: 50%;
 		width: 100%;
 	}
@@ -807,11 +807,12 @@ img {
 	}
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1400px) and (min-width: 768px) {
 	.text-box {
 		font-size: 16px;
 		font-size: 1.6rem;
 		left: 50%;
+		width: 100%;
 	}
 	.text-box h3 {
 		font-size: 1.9em;
