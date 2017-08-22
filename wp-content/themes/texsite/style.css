@@ -808,6 +808,15 @@ img {
 	height: auto;
 }
 
+.our-title {
+	text-align: center;
+}
+
+.red-bar {
+	background: red;
+	height: 7vh;
+}
+
 /*--------------------------------------------------------------
 ## Frontpage widget
 --------------------------------------------------------------*/
@@ -850,7 +859,6 @@ img {
 }
 
 .page-content,
-.entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
 }
@@ -887,7 +895,7 @@ img {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 1.5em;
+	margin: 0;
 	/* Make sure select elements fit in widgets. */
 }
 
