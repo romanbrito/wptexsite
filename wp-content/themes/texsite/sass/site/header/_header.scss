@@ -1,12 +1,3 @@
-.widget-title {
-  text-align: center;
-  @media screen and (max-width: 767px) {
-    font-size: 1.6em;
-  }
-  @media screen and (max-width: 992px) and (min-width: 768px) {
-      font-size: 1.9em;
-  }
-}
 
 .large-screen {
   display: none;
@@ -46,11 +37,19 @@ img {
 }
 
 //our story
-.our-title {
-  text-align: center;
-}
-
 .red-bar {
   background: red;
   height: 7vh;
 }
+
+.our-title {
+  text-align: center;
+  @media screen and (max-width: 767px) {
+    font-size: 1.6em;
+  }
+  @media screen and (max-width: 992px) and (min-width: 768px) {
+    font-size: 1.9em;
+  }
+}
+
+//our story
