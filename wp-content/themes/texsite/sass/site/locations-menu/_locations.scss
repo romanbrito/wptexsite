@@ -10,6 +10,20 @@
   overflow-y: scroll;
 }
 
+/*Insert this style in your css*/
+.fontAwesome {
+  font-family: 'FontAwesome', Helvetica, sans-serif;
+}
+
+.input-search {
+  border-radius: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+#search-area {
+  margin: 1em auto 0;
+}
 //.section-full {
 //  height:100vh;
 //  min-height:100vh;

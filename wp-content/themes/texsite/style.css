@@ -489,7 +489,6 @@ input[type="color"],
 textarea {
 	color: #666;
 	border: 1px solid #ccc;
-	border-radius: 3px;
 	padding: 3px;
 }
 
@@ -916,6 +915,21 @@ img {
 .search-location {
 	height: 60vh;
 	overflow-y: scroll;
+}
+
+/*Insert this style in your css*/
+.fontAwesome {
+	font-family: 'FontAwesome', Helvetica, sans-serif;
+}
+
+.input-search {
+	border-radius: 2em;
+	text-align: center;
+	width: 100%;
+}
+
+#search-area {
+	margin: 1em auto 0;
 }
 
 /*--------------------------------------------------------------

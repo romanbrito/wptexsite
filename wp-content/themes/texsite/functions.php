@@ -199,6 +199,9 @@ function texsite_scripts()
     // Enqueue Google Fonts
     wp_enqueue_style('texsite-fonts', 'https://fonts.googleapis.com/css?family=Catamaran|Montserrat');
 
+    // Enqueue Font awesome
+    wp_enqueue_style('font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
     wp_enqueue_style('texsite-style', get_stylesheet_uri());
 
     wp_enqueue_script('texsite-header', get_template_directory_uri() . '/js/header.js', array('jquery'), '20170807', true);

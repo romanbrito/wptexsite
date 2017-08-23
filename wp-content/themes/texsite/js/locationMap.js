@@ -46,7 +46,7 @@ function initMap() {
         var markerCluster = new MarkerClusterer(map, markers,
             {
                 gridSize: 15,
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
             });
 
         // Add links to markers to open in google maps for directions

@@ -105,11 +105,6 @@
 </div>
 
 
-
-
-
-
-
 <!--/////////////////////-->
 
 <div class="container-fluid">
@@ -130,8 +125,6 @@
 <div id="locationbox">
     <div id="locationInfo"></div>
 </div>
-
-
 
 
 <!--mustache template-->
@@ -175,9 +168,9 @@
 <!--mustache script-->
 <script type="text/javascript">
 
-    (function($) {
+    (function ($) {
 
-        $.getJSON('../wp-content/themes/texsite/json/locations.json', function(data) {
+        $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
             var template = $('#locationtpl').html();
             var html = Mustache.to_html(template, data);
             $('#locationInfo').html(html);
@@ -248,7 +241,8 @@
         <div class="col-lg-6 col-md-12 col-sm-12 text-box container">
             <h3>Our Story</h3>
             <p>It’s what we’ve been doing since 1981. We start with the highest quality, fresh ingredients. We make each
-                and every cheesesteak to order and top it with a signature sauce of your choice. <span class="medium-screen">All of our
+                and every cheesesteak to order and top it with a signature sauce of your choice. <span
+                        class="medium-screen">All of our
                 cheesesteaks, burgers, salads and deli-sandwiches are served with complimentary tortilla chips and fresh
                     salsa. It’s how our founder did it, it’s how we do it. It’s our passion.</span>
 
@@ -260,3 +254,79 @@
              src="/wp-content/uploads/2017/08/ourStory.png">
     </div>
 </div>
+
+<!--locations-->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6" id="map"></div>
+        <div class="col-sm-6">
+
+                <div id="search-area" class="row">
+                    <input type="search" class="fontAwesome input-search" name="search" id="search" placeholder="Name, City, State &#xf002;"/>
+                </div> <hr>
+
+            <div id="update" class="search-location"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="locationbox">
+    <div id="locationInfo"></div>
+</div>
+
+
+<!--mustache template-->
+<script id="locationtpl" type="text/template">
+    {{#locations}}
+    <div class="modal fade" id="{{label}}menuModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">menu {{name}}</h4>
+                </div>
+                <div class="modal-body">
+                    <p>{{address}}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="{{label}}catModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">catering {{name}}</h4>
+                </div>
+                <div class="modal-body">
+                    <p>{{address}}</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/locations}}
+</script>
+<!--mustache script-->
+<script type="text/javascript">
+
+    (function ($) {
+
+        $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
+            var template = $('#locationtpl').html();
+            var html = Mustache.to_html(template, data);
+            $('#locationInfo').html(html);
+        }); //getJSON
+    })(jQuery); //function
+
+</script>
+
+<!--///////-->
