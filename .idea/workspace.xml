@@ -22,8 +22,8 @@
           <file leaf-file-name="searchLocation.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/searchLocation.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="59" />
+                <state relative-caret-position="241">
+                  <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -67,7 +67,7 @@
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
-                  <caret line="311" column="38" lean-forward="true" selection-start-line="311" selection-start-column="38" selection-end-line="311" selection-end-column="38" />
+                  <caret line="311" column="38" lean-forward="false" selection-start-line="311" selection-start-column="38" selection-end-line="311" selection-end-column="38" />
                   <folding>
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
@@ -94,7 +94,7 @@
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/primary/_posts-and-pages.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
-                  <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+                  <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -103,8 +103,8 @@
           <file leaf-file-name="_locations.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+                <state relative-caret-position="238">
+                  <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -374,12 +374,12 @@
       <workItem from="1502633655040" duration="3964000" />
       <workItem from="1503239594254" duration="7698000" />
       <workItem from="1503337011981" duration="4548000" />
-      <workItem from="1503353818119" duration="24220000" />
+      <workItem from="1503353818119" duration="25338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131227000" />
+    <option name="totallyTimeSpent" value="132345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -664,7 +664,7 @@
         <state relative-caret-position="391">
           <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
-            <marker date="1503528081337" expanded="true" signature="1052:1062" ph="..." />
+            <marker date="1503529910022" expanded="true" signature="1052:1062" ph="..." />
           </folding>
         </state>
       </provider>
@@ -728,7 +728,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="311" column="38" lean-forward="true" selection-start-line="311" selection-start-column="38" selection-end-line="311" selection-end-column="38" />
+          <caret line="311" column="38" lean-forward="false" selection-start-line="311" selection-start-column="38" selection-end-line="311" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
@@ -767,23 +767,23 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/primary/_posts-and-pages.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/searchLocation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="34" column="57" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="59" />
+        <state relative-caret-position="241">
+          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="41" column="34" lean-forward="false" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding />
         </state>
       </provider>

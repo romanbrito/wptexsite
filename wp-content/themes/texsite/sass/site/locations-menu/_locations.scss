@@ -37,23 +37,29 @@
 .searchresults{
   list-style: none;
   padding: 0;
+
+  .row {
+    border-bottom: solid lightgray;
+    margin: 5px 0;
+  }
 }
 
 .searchresults h4 {
   color: red;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 
 .searchresults p {
   margin: 0;
 }
 
-.location-buttons {
-  padding: 0;
+.location-buttons .btn {
+  display: block;
+}
 
-  .btn {
-    display: block;
-  }
+.location-info {
+  padding-right: 1em;
+  text-align: right;
 }
 
 //.section-full {
