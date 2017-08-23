@@ -1,3 +1,7 @@
+.entry-title {
+  text-align: center;
+}
+
 //google map style
 //  /* Always set the map height explicitly to define the size of the div
 //   * element that contains the map. */
@@ -16,8 +20,8 @@
 }
 
 .input-search {
-  border-radius: 2em;
-  text-align: right;
+  border-radius: 7pt;
+  text-align: left;
   width: 100%;
   &:focus {
     outline: none;
@@ -27,6 +31,19 @@
 
 #search-area {
   margin: 1em auto 0;
+}
+
+.searchresults{
+  list-style: none;
+}
+
+.searchresults h4 {
+  color: red;
+  margin-bottom: 0;
+}
+
+.searchresults p {
+  margin: 0;
 }
 //.section-full {
 //  height:100vh;

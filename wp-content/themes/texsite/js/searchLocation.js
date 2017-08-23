@@ -20,11 +20,12 @@
                     (val.state.search(myExp) != -1)||
                     (val.city.search(myExp) != -1)) {
                     output += '<li>';
-                    output += '<h2>' + val.name + '</h2>';
+                    output += '<h4>' + val.name + '</h4>';
                     output += '<p>' + val.address + '</p>';
-                    output += '<p>' + val.city + '</p>';
-                    output += '<p>' + val.state + '</p>';
-                    output += '<p>' + val.zip + '</p>';
+                    output += '<p>' + val.city + ', ';
+                    output +=  val.state + ' ';
+                    output +=  val.zip + '</p>';
+                    output +=  '<a href="tel:' + val.phone + '">' + 'T. ' + val.phone + '</a>';
                     output += '<p>' + val.hours1 + '</p>';
                     output += '<p>' + val.hours2 + '</p>';
                     output += '<p>' + val.hours3 + '</p>';
@@ -44,11 +45,12 @@
             var output = '<ul class="searchresults">';
             $.each(data.locations, function (key, val) {
                 output += '<li>';
-                output += '<h2>' + val.name + '</h2>';
+                output += '<h4>' + val.name + '</h4>';
                 output += '<p>' + val.address + '</p>';
-                output += '<p>' + val.city + '</p>';
-                output += '<p>' + val.state + '</p>';
-                output += '<p>' + val.zip + '</p>';
+                output += '<p>' + val.city + ', ';
+                output +=  val.state + ' ';
+                output +=  val.zip + '</p>';
+                output +=  '<a href="tel:' + val.phone + '">' + 'T. ' + val.phone + '</a>';
                 output += '<p>' + val.hours1 + '</p>';
                 output += '<p>' + val.hours2 + '</p>';
                 output += '<p>' + val.hours3 + '</p>';

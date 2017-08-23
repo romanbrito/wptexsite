@@ -908,6 +908,10 @@ img {
 /*--------------------------------------------------------------
 ## locations-menu page
 --------------------------------------------------------------*/
+.entry-title {
+	text-align: center;
+}
+
 #map {
 	height: 60vh;
 }
@@ -923,8 +927,8 @@ img {
 }
 
 .input-search {
-	border-radius: 2em;
-	text-align: right;
+	border-radius: 7pt;
+	text-align: left;
 	width: 100%;
 }
 
@@ -935,6 +939,19 @@ img {
 
 #search-area {
 	margin: 1em auto 0;
+}
+
+.searchresults {
+	list-style: none;
+}
+
+.searchresults h4 {
+	color: red;
+	margin-bottom: 0;
+}
+
+.searchresults p {
+	margin: 0;
 }
 
 /*--------------------------------------------------------------
