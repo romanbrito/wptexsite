@@ -12,6 +12,7 @@
 .search-location {
   height: 60vh;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 /*Insert this style in your css*/
@@ -46,6 +47,15 @@
 .searchresults p {
   margin: 0;
 }
+
+.location-buttons {
+  padding: 0;
+
+  .btn {
+    display: block;
+  }
+}
+
 //.section-full {
 //  height:100vh;
 //  min-height:100vh;

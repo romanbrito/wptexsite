@@ -893,6 +893,7 @@ img {
 .search-location {
 	height: 60vh;
 	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 /*Insert this style in your css*/
@@ -927,6 +928,14 @@ img {
 
 .searchresults p {
 	margin: 0;
+}
+
+.location-buttons {
+	padding: 0;
+}
+
+.location-buttons .btn {
+	display: block;
 }
 
 /*--------------------------------------------------------------
