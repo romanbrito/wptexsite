@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ad1acf0-9ac2-4b4b-a842-7e6bc8347e9d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/style.css" />
@@ -45,8 +41,8 @@
           <file leaf-file-name="_locations.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+                <state relative-caret-position="374">
+                  <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -55,8 +51,8 @@
           <file leaf-file-name="_fields.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+                <state relative-caret-position="391">
+                  <caret line="23" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -210,8 +206,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss" />
       </list>
     </option>
@@ -462,12 +458,12 @@
       <workItem from="1502633655040" duration="3964000" />
       <workItem from="1503239594254" duration="7698000" />
       <workItem from="1503337011981" duration="4548000" />
-      <workItem from="1503353818119" duration="16572000" />
+      <workItem from="1503353818119" duration="17840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123579000" />
+    <option name="totallyTimeSpent" value="124847000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -825,26 +821,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/searchLocation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-20">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -864,10 +844,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/searchLocation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
