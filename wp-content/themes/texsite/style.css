@@ -393,32 +393,6 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul, ol {
-	margin: 0 0 1.5em 3em;
-}
-
-ul {
-	list-style: disc;
-}
-
-ol {
-	list-style: decimal;
-}
-
-li > ul,
-li > ol {
-	margin-bottom: 0;
-	margin-left: 1.5em;
-}
-
-dt {
-	font-weight: bold;
-}
-
-dd {
-	margin: 0 1.5em 1.5em;
-}
-
 img {
 	height: auto;
 	/* Make sure images are scaled correctly. */
@@ -943,6 +917,7 @@ img {
 
 .searchresults {
 	list-style: none;
+	padding: 0;
 }
 
 .searchresults h4 {
