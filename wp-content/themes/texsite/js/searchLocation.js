@@ -23,8 +23,8 @@
                     output += '<div class="row main-location">';
                     output += '<div class="location-buttons col-lg-6">';
                     output += '<div class="row">';
-                    output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
-                    output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
+                    output += '<a class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+                    output += '<a class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
                     output += '</div>';
                     output += '<div class="row">';
                     output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
@@ -58,8 +58,8 @@
                 output += '<div class="row main-location">';
                 output += '<div class="location-buttons col-lg-6">';
                 output += '<div class="row">';
-                output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
-                output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
+                output += '<a class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+                output += '<a class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
                 output += '</div>';
                 output += '<div class="row">';
                 output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
