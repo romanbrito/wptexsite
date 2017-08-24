@@ -20,11 +20,15 @@
                     (val.state.search(myExp) != -1)||
                     (val.city.search(myExp) != -1)) {
                     output += '<li>';
-                    output += '<div class="row">';
+                    output += '<div class="row main-location">';
                     output += '<div class="location-buttons col-lg-6">';
-                    output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
-                    output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
+                    output += '<div class="row">';
+                    output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+                    output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
+                    output += '</div>';
+                    output += '<div class="row">';
                     output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
+                    output += '</div>';
                     output += '</div>';
                     output += '<div class="location-info col-lg-6">';
                     output += '<h4>' + val.name + '</h4>';
@@ -51,11 +55,15 @@
             var output = '<ul class="searchresults">';
             $.each(data.locations, function (key, val) {
                 output += '<li>';
-                output += '<div class="row">';
+                output += '<div class="row main-location">';
                 output += '<div class="location-buttons col-lg-6">';
-                output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
-                output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
+                output += '<div class="row">';
+                output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+                output += '<a class="btn btn-default col-lg-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
+                output += '</div>';
+                output += '<div class="row">';
                 output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
+                output += '</div>';
                 output += '</div>';
                 output += '<div class="location-info col-lg-6">';
                 output += '<h4>' + val.name + '</h4>';
