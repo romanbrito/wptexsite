@@ -887,7 +887,7 @@ img {
 }
 
 #map {
-	height: 60vh;
+	height: 71vh;
 }
 
 .search-location {
@@ -923,19 +923,39 @@ img {
 
 .searchresults .row {
 	border-bottom: solid lightgray;
-	margin: 5px 0;
+	margin: 1em 0;
+	padding: 0 0 1em;
 }
 
 .searchresults h4 {
 	color: red;
 	margin: 0 auto;
+	font-size: .9em;
 }
 
 .searchresults p {
 	margin: 0;
+	font-size: .7em;
 }
 
-.location-buttons .btn {
+.searchresults a {
+	font-size: .8em;
+}
+
+.searchresults a:visited {
+	color: white;
+}
+
+.searchresults .btn-default {
+	color: red;
+	border: solid red 1px;
+}
+
+.searchresults .btn {
+	margin-top: 7px;
+}
+
+.location-buttons .btn-danger {
 	display: block;
 }
 

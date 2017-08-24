@@ -6,7 +6,7 @@
 //  /* Always set the map height explicitly to define the size of the div
 //   * element that contains the map. */
 #map {
-  height: 60vh;
+  height: 71vh;
 }
 
 .search-location {
@@ -34,26 +34,40 @@
   margin: 1em auto 0;
 }
 
-.searchresults{
+.searchresults {
   list-style: none;
   padding: 0;
 
   .row {
     border-bottom: solid lightgray;
-    margin: 5px 0;
+    margin: 1em 0;
+    padding: 0 0 1em;
+  }
+  h4 {
+    color: red;
+    margin: 0 auto;
+    font-size: .9em;
+  }
+  p {
+    margin: 0;
+    font-size: .7em;
+  }
+  a {
+    font-size: .8em;
+  }
+  a:visited {
+    color: white;
+  }
+  .btn-default {
+    color: red;
+    border: solid red 1px;
+  }
+  .btn {
+    margin-top: 7px;
   }
 }
 
-.searchresults h4 {
-  color: red;
-  margin: 0 auto;
-}
-
-.searchresults p {
-  margin: 0;
-}
-
-.location-buttons .btn {
+.location-buttons .btn-danger {
   display: block;
 }
 
@@ -67,7 +81,6 @@
 //  min-height:100vh;
 //
 //}
-
 
 ///* Optional: Makes the sample page fill the window. */
 //aside#secondary,.textwidget, .custom-html-widget#secondary,#post-1748,#main,#primary,#content,#page,body,#custom_html-10,html {

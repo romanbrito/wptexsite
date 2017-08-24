@@ -22,9 +22,9 @@
                     output += '<li>';
                     output += '<div class="row">';
                     output += '<div class="location-buttons col-lg-6">';
+                    output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+                    output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
                     output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
-                    output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
-                    output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
                     output += '</div>';
                     output += '<div class="location-info col-lg-6">';
                     output += '<h4>' + val.name + '</h4>';
@@ -53,9 +53,9 @@
                 output += '<li>';
                 output += '<div class="row">';
                 output += '<div class="location-buttons col-lg-6">';
+                output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
+                output += '<a class="btn btn-default" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
                 output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination='+ val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';
-                output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'menuModal"> Menu</a>';
-                output += '<a class="btn btn-danger" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'catModal"> Catering Menu</a>';
                 output += '</div>';
                 output += '<div class="location-info col-lg-6">';
                 output += '<h4>' + val.name + '</h4>';
