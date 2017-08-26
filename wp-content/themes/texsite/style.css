@@ -921,7 +921,7 @@ img {
 
 .input-search:focus {
 	outline: none;
-	box-shadow: 0 0 0 2pt red;
+	box-shadow: 0 0 0 2pt #c80000;
 }
 
 #search-area {
@@ -940,7 +940,7 @@ img {
 }
 
 .searchresults h4 {
-	color: red;
+	color: #c80000;
 	margin: 0 auto;
 	font-size: 1.1em;
 	line-height: 1.7em;
@@ -960,16 +960,21 @@ img {
 }
 
 .searchresults .btn-default {
-	color: red;
-	border: solid red 1px;
+	color: #c80000;
+	border: solid #c80000 1px;
 }
 
 .searchresults .btn {
 	margin-top: 7px;
 }
 
+.location-buttons {
+	padding-right: 1em;
+}
+
 .location-buttons .btn-danger {
 	display: block;
+	background: #c80000;
 }
 
 .location-info {
