@@ -778,6 +778,12 @@ img {
 	left: 25%;
 	-webkit-transform: translate(-50%, -50%);
 	        transform: translate(-50%, -50%);
+	padding-left: 6em;
+	padding-right: 6em;
+}
+
+.text-box h3 {
+	font-size: 1.8em;
 }
 
 @media screen and (max-width: 767px) {
@@ -788,11 +794,11 @@ img {
 		width: 100%;
 	}
 	.text-box h3 {
-		font-size: 1.4em;
+		font-size: 1.3em;
 	}
 }
 
-@media screen and (max-width: 1400px) and (min-width: 768px) {
+@media screen and (max-width: 1580px) and (min-width: 768px) {
 	.text-box {
 		font-size: 16px;
 		font-size: 1.6rem;
@@ -800,7 +806,7 @@ img {
 		width: 100%;
 	}
 	.text-box h3 {
-		font-size: 1.9em;
+		font-size: 1.7em;
 	}
 }
 
