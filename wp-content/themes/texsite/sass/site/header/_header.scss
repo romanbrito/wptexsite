@@ -18,6 +18,21 @@ img {
   height: auto;
 }
 
+//slider
+.slider-caption {
+  position: absolute;
+  //right: 15%;
+  bottom: 20px;
+  left: 5%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+//end slider
+
 //our story
 
 .large-screen, .medium-screen {
@@ -66,7 +81,7 @@ img {
 }
 
 .red-bar {
-  background: red;
+  background: $color__background-bar;
   height: 7vh;
 }
 
@@ -84,4 +99,4 @@ img {
   position: relative;
 }
 
-//our story
+//end our story
