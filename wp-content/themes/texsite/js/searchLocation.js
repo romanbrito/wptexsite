@@ -38,7 +38,7 @@
             $.each(data.locations, function (key, val) {
 
                 output += get_output(val); // function
-                console.log(output);
+
 
             });
             output += '</ul>';
