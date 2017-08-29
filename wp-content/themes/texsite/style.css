@@ -994,6 +994,59 @@ img {
 }
 
 /*--------------------------------------------------------------
+## catering page
+--------------------------------------------------------------*/
+.catering li > a:hover {
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.catering a {
+	color: #ffffff;
+}
+
+.text-cater {
+	padding: 2em 0;
+}
+
+.text-cater .btn-danger {
+	background: #c80000;
+	width: 100%;
+}
+
+.text-cater a:visited {
+	color: #ffffff;
+}
+
+.order-box {
+	position: absolute;
+	text-align: center;
+	/*opacity: 0.3;*/
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	padding-left: 6em;
+	padding-right: 6em;
+	background: rgba(0, 0, 0, 0.5);
+	width: 80%;
+	height: 50%;
+}
+
+.order-text {
+	position: relative;
+}
+
+.order-box .order-content {
+	color: #ffffff;
+}
+
+.order-content .btn-danger {
+	width: 28%;
+	background: #c80000;
+}
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 .widget {

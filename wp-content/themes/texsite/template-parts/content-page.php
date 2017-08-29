@@ -37,6 +37,11 @@
         <?php get_sidebar('locations'); ?>
     <?php endif; // End locations page ?>
 
+    <!-- display only in catering-->
+    <?php if (is_page('we-cater')) : ?>
+        <?php get_sidebar('catering'); ?>
+    <?php endif; // End locations page ?>
+
     <?php if (is_front_page()) : ?>
         <figure class="instagram-gallery">
             <?php get_sidebar('frontpage'); ?>

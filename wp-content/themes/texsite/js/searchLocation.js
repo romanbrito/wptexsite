@@ -38,6 +38,7 @@
             $.each(data.locations, function (key, val) {
 
                 output += get_output(val); // function
+                console.log(output);
 
             });
             output += '</ul>';
@@ -46,7 +47,7 @@
     }
 
     function get_output( val ) {
-        var output;
+        var output = '';
 
         output += '<li>';
         output += '<div class="row main-location">';

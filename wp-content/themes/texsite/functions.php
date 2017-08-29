@@ -137,11 +137,22 @@ function texsite_widgets_init()
         'after_title' => '</h2>',
     ));
 
-    //front page sidebar
+    //locations sidebar
     register_sidebar(array(
         'name' => esc_html__('locations-widget', 'texsite'),
         'id' => 'locations',
         'description' => esc_html__('locations', 'texsite'),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget' => '</section>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ));
+
+    //catering sidebar
+    register_sidebar(array(
+        'name' => esc_html__('catering-widget', 'texsite'),
+        'id' => 'catering',
+        'description' => esc_html__('catering', 'texsite'),
         'before_widget' => '<section id="%1$s" class="widget %2$s">',
         'after_widget' => '</section>',
         'before_title' => '<h2 class="widget-title">',
