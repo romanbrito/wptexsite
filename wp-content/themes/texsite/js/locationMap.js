@@ -7,7 +7,7 @@ function initMap() {
 
         console.log(data.locations);
 
-        getPosition(function (position) { //getPosition callback
+        getPosition(data.locations, function (position) { //getPosition callback
             var current_position = position;
 
             // var current_position = {
@@ -61,7 +61,7 @@ function initMap() {
     }
 
     // this functions gets the current position, needs https
-    function getPosition(cb) {
+    function getPosition(error_locations, cb) {
         // Try HTML5 geolocation.
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(function (position) {
@@ -77,6 +77,8 @@ function initMap() {
             }, function () {
                 //handleLocationError(true, infoWindow, map.getCenter());
                 console.log('error');
+                SearchLocation.getData(error_locations); // rendering locations
+                SearchLocation.searchData(error_locations); // rendering location for search
             });
         } else {
             // Browser doesn't support Geolocation
