@@ -1,52 +1,42 @@
-(function ($) {
+var SearchLocation = (function ($) {
     /**
      * Search script
      */
 
 // http://maps.googleapis.com/maps/api/directions/json?origin=78572&destination=78641
 // json for distance between locations
-
-    get_the_data(); // load info
-    search_the_data(); // search data
-
-    function search_the_data() {
+    function search_the_data(locations) {
         $('#search').keyup(function () {
             var searchField = $('#search').val();
             var myExp = new RegExp(searchField, "i");
-            $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
-                var output = '<ul class="searchresults">';
-                $.each(data.locations, function (key, val) {
-                    if ((val.name.search(myExp) != -1) ||
-                        (val.address.search(myExp) != -1) ||
-                        (val.zip.search(myExp) != -1) ||
-                        (val.state.search(myExp) != -1) ||
-                        (val.city.search(myExp) != -1)) {
+            var output = '<ul class="searchresults">';
+            $.each(locations, function (key, val) {
+                if ((val.name.search(myExp) != -1) ||
+                    (val.address.search(myExp) != -1) ||
+                    (val.zip.search(myExp) != -1) ||
+                    (val.state.search(myExp) != -1) ||
+                    (val.city.search(myExp) != -1)) {
 
-                        output += get_output(val); // function
-                    }
-                });
-                output += '</ul>';
-                $('#update').html(output);
-            }); //get JSON
+                    output += get_output(val); // function
+                }
+            });
+            output += '</ul>';
+            $('#update').html(output);
         });
     }
 
 
-    function get_the_data() {
-        $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
-            var output = '<ul class="searchresults">';
-            $.each(data.locations, function (key, val) {
+    function get_the_data(locations) {
 
-                output += get_output(val); // function
-
-
-            });
-            output += '</ul>';
-            $('#update').html(output);
-        }); // get JSON
+        var output = '<ul class="searchresults">';
+        $.each(locations, function (key, val) {
+            output += get_output(val); // function
+        });
+        output += '</ul>';
+        $('#update').html(output);
     }
 
-    function get_output( val ) {
+    function get_output(val) {
         var output = '';
 
         output += '<li>';
@@ -62,6 +52,7 @@
         output += '<p>' + val.hours1 + '</p>';
         output += '<p>' + val.hours2 + '</p>';
         output += '<p>' + val.hours3 + '</p>';
+        output += '<p>' + val.miles + '</p>';
         output += '</div>';
 
         output += '<div class="location-buttons col-lg-6">';
@@ -78,6 +69,11 @@
         output += '</li>';
 
         return output;
+    }
+
+    return {
+        getData: get_the_data,
+        searchData: search_the_data
     }
 
 

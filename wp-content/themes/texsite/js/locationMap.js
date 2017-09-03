@@ -1,34 +1,102 @@
-// get Json using plain javascript to avoid conflict with jquery
-var getJSON = function (url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function () {
-        var status = xhr.status;
-        if (status == 200) {
-            callback(null, xhr.response);
-        } else {
-            callback(status);
-        }
-    };
-    xhr.send();
-};
-
 function initMap() {
+    var $ = jQuery;
+    var service = new google.maps.DistanceMatrixService;
 
-     var map = new google.maps.Map(document.getElementById('map'), {
-     // center and zoom in bounds
-    });
+    // getting json object to have data available
+    $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
 
-    // center to bounds
-    var bounds = new google.maps.LatLngBounds();
+        console.log(data.locations);
 
-    // Add some markers to the map.
-    // Note: The code uses the JavaScript Array.prototype.map() method to
-    // create an array of markers based on a given "locations" array.
-    // The map() method here has nothing to do with the Google Maps API.
-    // https://googlemaps.github.io/js-marker-clusterer/examples/advanced_example.html
-    getJSON('../wp-content/themes/texsite/json/locations.json', function (err, data) {
+        getPosition(function (position) { //getPosition callback
+            var current_position = position;
+
+            // var current_position = {
+            //     "lat": 35.46395,
+            //     "lng": -97.510094
+            // };
+
+            var locations_coordinates = data.locations.map(function (current_location, index) {
+                return current_location.coordinates;
+            });
+
+            getDistance(current_position, locations_coordinates, service, function (distance) { // getDistance callback
+
+                var location_distance = distance.map(function (element, index) { // merging distance with locations array
+                    data.locations[index].distance = element.distance.value;
+                    data.locations[index].miles = element.distance.text;
+                    return data.locations[index];
+                }).sort(function (a, b) {  // sorting locations array
+                    return a.distance - b.distance;
+                });
+
+                SearchLocation.getData(location_distance); // rendering locations
+                SearchLocation.searchData(location_distance); // rendering location for search
+
+            }); // end getDistance callback
+
+        }); // end getPosition callback
+
+
+    }); // end get json object
+
+    // distance matrix
+    function getDistance(origin, destination, service, cb) {
+
+        service.getDistanceMatrix({
+            origins: [origin],
+            destinations: destination,
+            travelMode: 'DRIVING',
+            unitSystem: google.maps.UnitSystem.IMPERIAL,
+            avoidHighways: false,
+            avoidTolls: false
+        }, function (response, status) {
+            if (status === 'OK') {
+                //console.log('distance matrix ' + JSON.stringify(response.rows[0].elements[0].distance.value));
+                cb(response.rows[0].elements);
+                // console.log('distance matrix ' + JSON.stringify(response));
+            } else {
+                alert('Geocode was not successful due to: ' + status);
+            }
+        });
+    }
+
+    // this functions gets the current position, needs https
+    function getPosition(cb) {
+        // Try HTML5 geolocation.
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                var pos = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude
+                };
+
+                cb(pos); // callback function
+
+                //console.log('current position ' + JSON.stringify(pos));
+
+            }, function () {
+                //handleLocationError(true, infoWindow, map.getCenter());
+                console.log('error');
+            });
+        } else {
+            // Browser doesn't support Geolocation
+            //handleLocationError(false, infoWindow, map.getCenter());
+            console.log('no geolocation');
+        }
+    }
+    // same postion but for testing without https
+    // function getPosition(cb) {
+    //     // Try HTML5 geolocation.
+    //     var pos = {
+    //         "lat": 35.46395,
+    //         "lng": -97.510094
+    //     };
+    //     cb(pos); // callback function
+    // }
+
+
+/////////
+    $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
 
         console.log(detectIE());
         if (detectIE() === false) {
@@ -47,18 +115,18 @@ function initMap() {
             });
 
         } else {
-        var markers = JSON.parse(data).locations.map(function (location, i) {
-            // center to bounds
-            var loc = new google.maps.LatLng(location.coordinates);
-            bounds.extend(loc);
+            var markers = JSON.parse(data).locations.map(function (location, i) {
+                // center to bounds
+                var loc = new google.maps.LatLng(location.coordinates);
+                bounds.extend(loc);
 
-            // adding markers
-            return new google.maps.Marker({
-                position: location.coordinates,
-                //labels
-                label: location.label,
+                // adding markers
+                return new google.maps.Marker({
+                    position: location.coordinates,
+                    //labels
+                    label: location.label,
+                });
             });
-        });
         }
 
         if (detectIE() === false) {
@@ -77,19 +145,19 @@ function initMap() {
             });
 
         } else {
-        // Add a marker clusterer to manage the markers.
-        var markerCluster = new MarkerClusterer(map, markers,
-            {
-                gridSize: 15,
-                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
-            });
+            // Add a marker clusterer to manage the markers.
+            var markerCluster = new MarkerClusterer(map, markers,
+                {
+                    gridSize: 15,
+                    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
+                });
 
-        // Add links to markers to open in google maps for directions
-        var gMapsClick = JSON.parse(data).locations.map(function (location, i) {
-            return markers[i].addListener('click', function () {
-                window.open('https://www.google.com/maps/dir/?api=1&destination=' + location.coordinates.lat + ',' + location.coordinates.lng, '_blank');
+            // Add links to markers to open in google maps for directions
+            var gMapsClick = JSON.parse(data).locations.map(function (location, i) {
+                return markers[i].addListener('click', function () {
+                    window.open('https://www.google.com/maps/dir/?api=1&destination=' + location.coordinates.lat + ',' + location.coordinates.lng, '_blank');
+                });
             });
-        });
         }
 
         // center to bounds
@@ -98,6 +166,13 @@ function initMap() {
 
     });
 
+    //map and bounds
+    var map = new google.maps.Map(document.getElementById('map'), {
+        // center and zoom in bounds
+    });
+
+    // center to bounds
+    var bounds = new google.maps.LatLngBounds();
 
 }
 
