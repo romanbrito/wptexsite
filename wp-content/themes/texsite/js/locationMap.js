@@ -84,6 +84,8 @@ function initMap() {
             // Browser doesn't support Geolocation
             //handleLocationError(false, infoWindow, map.getCenter());
             console.log('no geolocation');
+            SearchLocation.getData(error_locations); // rendering locations
+            SearchLocation.searchData(error_locations); // rendering location for search
         }
     }
     // same postion but for testing without https
