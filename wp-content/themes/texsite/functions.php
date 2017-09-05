@@ -186,15 +186,17 @@ function texsite_scripts()
     //	bootstrap css and js
     wp_enqueue_style('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/css/bootstrap.min.css');
 
-    wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '20170804', true);
+    wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '20170804', false);
     //
 
     // location map scripts
     if (is_page('locations-menu')) :
+        wp_enqueue_script('last-jquery', 'http://code.jquery.com/jquery-3.2.1.min.js', array(), null, false);
+        wp_enqueue_script('mustache', 'https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js', array(), null, false);
+        wp_enqueue_script('svg-pan-zoom', get_template_directory_uri() . '/js/svg-pan-zoom.js', array(), null, false);
         wp_enqueue_script('location-map', get_template_directory_uri() . '/js/locationMap.js', array(), null, true);
         wp_enqueue_script('googleMaps-examples', 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js', array(), null, true);
         wp_enqueue_script('googleMaps-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=initMap', array(), null, true);
-        wp_enqueue_script('mustache', 'https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js', array(), null, false);
         wp_enqueue_script('location-search', get_template_directory_uri() . '/js/searchLocation.js', array('jquery'), '20170814', true);
     endif; // End locations page
     //

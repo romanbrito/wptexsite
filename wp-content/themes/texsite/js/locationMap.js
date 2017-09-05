@@ -2,6 +2,18 @@ function initMap() {
     var $ = jQuery;
     var service = new google.maps.DistanceMatrixService;
 
+    // load menu svg event listener
+    var $menuSVG = $("[rel*='svg-']");
+    console.log($menuSVG);
+
+    $menuSVG.on('load', function (evt) {
+        console.log('loaded');
+        svgPanZoom('#' + $(evt.target).attr("id"), {
+            zoomEnabled: true,
+            controlIconsEnabled: true
+        });
+    });
+
     // getting json object to have data available
     $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
 
