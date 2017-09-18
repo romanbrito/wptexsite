@@ -191,7 +191,7 @@ function texsite_scripts()
 
     // location map scripts
     if (is_page('locations-menu')) :
-        wp_enqueue_script('last-jquery', 'http://code.jquery.com/jquery-3.2.1.min.js', array(), null, false);
+        wp_enqueue_script('last-jquery', 'https://code.jquery.com/jquery-3.2.1.min.js', array(), null, false);
         wp_enqueue_script('mustache', 'https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js', array(), null, false);
         wp_enqueue_script('svg-pan-zoom', get_template_directory_uri() . '/js/svg-pan-zoom.js', array(), null, false);
         wp_enqueue_script('hammer-js', get_template_directory_uri() . '/js/hammer.min.js', array(), null, false);
