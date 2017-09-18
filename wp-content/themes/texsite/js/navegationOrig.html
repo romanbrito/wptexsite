@@ -53,57 +53,26 @@
 
 <!--scroll fire  our story-->
 <div id="Scroll_fire" class="container-fluid">
+    <div class="row red-bar"></div>
     <div class="row">
-        <div class="col-lg-6 text-box container">
+        <h2 class="our-title col-lg-12">THE ORIGINAL TEXAS CHEESESTEAK EST 1981</h2>
+    </div>
+    <div class="row our-text">
+        <div class="col-lg-6 col-md-12 col-sm-12 text-box container">
             <h3>Our Story</h3>
             <p>It’s what we’ve been doing since 1981. We start with the highest quality, fresh ingredients. We make each
-                and every cheesesteak to order and top it with a signature sauce of your choice. All of our
+                and every cheesesteak to order and top it with a signature sauce of your choice. <span class="medium-screen">All of our
                 cheesesteaks, burgers, salads and deli-sandwiches are served with complimentary tortilla chips and fresh
-                salsa. It’s how our founder did it, it’s how we do it. It’s our passion.
+                    salsa. It’s how our founder did it, it’s how we do it. It’s our passion.</span>
 
                 <span class="large-screen">Our Humble Beginnings – When our founder arrived in Austin in 1981, he brought his love of a great
                 Philly cheesesteak, a local place where everyone is treated like family.  With a grill and a dream,
                 Joel served cheesesteaks with a Texas twist in the heart of Austin.</span></p>
         </div>
-        <img id="story-img" class=""
+        <img id="story-img" style="width: 100%;"
              src="/wp-content/uploads/2017/08/ourStory.png">
     </div>
 </div>
-
-<!--image galery-->
-<div class="row">
-    <div class="col-md-4">
-        <div class="thumbnail">
-            <a href="/w3images/lights.jpg" target="_blank">
-                <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-                <div class="caption">
-                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="thumbnail">
-            <a href="/w3images/nature.jpg" target="_blank">
-                <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-                <div class="caption">
-                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="thumbnail">
-            <a href="/w3images/fjords.jpg" target="_blank">
-                <img src="/w3images/fjords.jpg" alt="Fjords" style="width:100%">
-                <div class="caption">
-                    <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-                </div>
-            </a>
-        </div>
-    </div>
-</div>
-
 
 <!--/////////////////////-->
 
@@ -235,7 +204,7 @@
 <div id="Scroll_fire" class="container-fluid">
     <div class="row red-bar"></div>
     <div class="row">
-        <h2 class="our-title col-lg-12">The Original Texas Cheesesteak Est 1981</h2>
+        <h2 class="our-title col-lg-12"><span style="font-family: mrs-eaves">THE ORIGINAL TEXAS CHEESESTEAK EST 1981</span></h2>
     </div>
     <div class="row our-text">
         <div class="col-lg-6 col-md-12 col-sm-12 text-box container">
@@ -288,12 +257,11 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">menu {{name}} <a href="#"><i class="fa fa-print" aria-hidden="true"></i></a></h4>
+                    <p class="modal-title">{{name}} Menu<a href="#"><i class="fa fa-print" aria-hidden="true"></i></a></p>
                 </div>
                 <div class="modal-body">
-                    <p>{{address}}</p>
                     <!--svg image-->
-                    <object type="image/svg+xml" data="/wp-content/themes/texsite/svg/McAllenMenu.svg" style="width: 100%">
+                    <object rel="svg-menu-{{label}}" id="menu-svg-{{label}}" class="svg-image" type="image/svg+xml" data="/wp-content/themes/texsite/svg/McAllenMenu.svg" style="width: 100%">
                         Your browser does not support iframes
                     </object>
                     <!---->
@@ -310,10 +278,14 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">catering {{name}}</h4>
+                    <p class="modal-title">{{name}} Catering<a href="#"><i class="fa fa-print" aria-hidden="true"></i></a></p>
                 </div>
                 <div class="modal-body">
-                    <p>{{address}}</p>
+                    <!--svg image-->
+                    <object  rel="svg-cat-{{label}}" id="cat-svg-{{label}}" class="svg-image" type="image/svg+xml" data="/wp-content/themes/texsite/svg/McAllenMenu.svg" style="width: 100%;">
+                        Your browser does not support iframes
+                    </object>
+                    <!---->
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -404,6 +376,34 @@
         <span class="glyphicon glyphicon-chevron-right"></span>
         <span class="sr-only">Next</span>
     </a>
+</div>
+
+<!--////-->
+
+<!--tasting-->
+<div class="container text-cater">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <h3><span style="font-family: mrs-eaves">GIVE US A TRY</span></h3>
+            <p>New to Texadelphia? Want to know what we’re all about? With our tasting platters, you have the power to try
+                before you buy! We’ll come to you with a sampling of our most popular items.
+            </p>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <a class="btn btn-danger"
+               href="#"
+               target="_blank" role="button">SCHEDULE A TASTING</a>
+        </div>
+        <div class="col-lg-4"></div>
+    </div>
+    <div class="row container">
+        <p>* Tasting events are only available for first tiem catering clients.</p>
+    </div>
 </div>
 
 <!--////-->

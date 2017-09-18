@@ -194,6 +194,7 @@ function texsite_scripts()
         wp_enqueue_script('last-jquery', 'http://code.jquery.com/jquery-3.2.1.min.js', array(), null, false);
         wp_enqueue_script('mustache', 'https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js', array(), null, false);
         wp_enqueue_script('svg-pan-zoom', get_template_directory_uri() . '/js/svg-pan-zoom.js', array(), null, false);
+        wp_enqueue_script('hammer-js', get_template_directory_uri() . '/js/hammer.min.js', array(), null, false);
         wp_enqueue_script('location-map', get_template_directory_uri() . '/js/locationMap.js', array(), null, true);
         wp_enqueue_script('googleMaps-examples', 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js', array(), null, true);
         wp_enqueue_script('googleMaps-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=initMap', array(), null, true);
@@ -212,6 +213,11 @@ function texsite_scripts()
     // Enqueue Google Fonts
     wp_enqueue_style('texsite-fonts', 'https://fonts.googleapis.com/css?family=Catamaran|Montserrat');
 
+    // Typekit Font
+    wp_enqueue_script('typekit-mrsEaves', 'https://use.typekit.net/mgd0hnb.js');
+    wp_enqueue_script('typekit-async', get_template_directory_uri() . '/js/typekit.js');
+
+    // <script>try{Typekit.load({ async: true });}catch(e){}</script>
     // Enqueue Font awesome
     wp_enqueue_style('font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
