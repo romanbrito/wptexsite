@@ -2,88 +2,96 @@ function initMap() {
     var $ = jQuery;
     var service = new google.maps.DistanceMatrixService;
 
-    // load menu svg event listener
-
-    // support for touchscreens
-    var eventsHandler;
-
-    eventsHandler = {
-        haltEventListeners: ['touchstart', 'touchend', 'touchmove', 'touchleave', 'touchcancel']
-        , init: function(options) {
-            var instance = options.instance
-                , initialScale = 1
-                , pannedX = 0
-                , pannedY = 0
-
-            // Init Hammer
-            // Listen only for pointer and touch events
-            this.hammer = Hammer(options.svgElement, {
-                inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput
-            })
-
-            // Enable pinch
-            this.hammer.get('pinch').set({enable: true})
-
-            // Handle double tap
-            this.hammer.on('doubletap', function(ev){
-                instance.zoomIn()
-            })
-
-            // Handle pan
-            this.hammer.on('panstart panmove', function(ev){
-                // On pan start reset panned variables
-                if (ev.type === 'panstart') {
-                    pannedX = 0
-                    pannedY = 0
-                }
-
-                // Pan only the difference
-                instance.panBy({x: ev.deltaX - pannedX, y: ev.deltaY - pannedY})
-                pannedX = ev.deltaX
-                pannedY = ev.deltaY
-            })
-
-            // Handle pinch
-            this.hammer.on('pinchstart pinchmove', function(ev){
-                // On pinch start remember initial zoom
-                if (ev.type === 'pinchstart') {
-                    initialScale = instance.getZoom()
-                    instance.zoom(initialScale * ev.scale)
-                }
-
-                instance.zoom(initialScale * ev.scale)
-
-            })
-
-            // Prevent moving the page on some devices when panning over SVG
-            options.svgElement.addEventListener('touchmove', function(e){ e.preventDefault(); });
-        }
-
-        , destroy: function(){
-            this.hammer.destroy()
-        }
-    }
-
-    // end support for touch screens
-    // without suport for touch follows
-    var $menuSVG = $("[rel*='svg-']");
-    console.log($menuSVG);
-
-    $menuSVG.on('load', function (evt) {
-        console.log('loaded');
-        svgPanZoom('#' + $(evt.target).attr("id"), {
-            zoomEnabled: true,
-            controlIconsEnabled: true,
-            fit: 1,
-            center: 1,
-            customEventsHandler: eventsHandler
-        });
-    });
-
     // getting json object to have data available
     $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
 
         console.log(data.locations);
+
+        <!--mustache script-->
+        RunTemplate.tmplt(data, function () {
+
+            // load menu svg event listener
+
+            // support for touchscreens
+            var eventsHandler;
+
+            eventsHandler = {
+                haltEventListeners: ['touchstart', 'touchend', 'touchmove', 'touchleave', 'touchcancel']
+                , init: function (options) {
+                    var instance = options.instance
+                        , initialScale = 1
+                        , pannedX = 0
+                        , pannedY = 0
+
+                    // Init Hammer
+                    // Listen only for pointer and touch events
+                    this.hammer = Hammer(options.svgElement, {
+                        inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput
+                    })
+
+                    // Enable pinch
+                    this.hammer.get('pinch').set({enable: true})
+
+                    // Handle double tap
+                    this.hammer.on('doubletap', function (ev) {
+                        instance.zoomIn()
+                    })
+
+                    // Handle pan
+                    this.hammer.on('panstart panmove', function (ev) {
+                        // On pan start reset panned variables
+                        if (ev.type === 'panstart') {
+                            pannedX = 0
+                            pannedY = 0
+                        }
+
+                        // Pan only the difference
+                        instance.panBy({x: ev.deltaX - pannedX, y: ev.deltaY - pannedY})
+                        pannedX = ev.deltaX
+                        pannedY = ev.deltaY
+                    })
+
+                    // Handle pinch
+                    this.hammer.on('pinchstart pinchmove', function (ev) {
+                        // On pinch start remember initial zoom
+                        if (ev.type === 'pinchstart') {
+                            initialScale = instance.getZoom()
+                            instance.zoom(initialScale * ev.scale)
+                        }
+
+                        instance.zoom(initialScale * ev.scale)
+
+                    })
+
+                    // Prevent moving the page on some devices when panning over SVG
+                    options.svgElement.addEventListener('touchmove', function (e) {
+                        e.preventDefault();
+                    });
+                }
+
+                , destroy: function () {
+                    this.hammer.destroy()
+                }
+            }
+
+            // end support for touch screens
+            // without suport for touch follows
+            var $menuSVG = $("[rel*='svg-']");
+            console.log($menuSVG);
+
+            $menuSVG.on('load', function (evt) {
+                console.log('loaded');
+                svgPanZoom('#' + $(evt.target).attr("id"), {
+                    zoomEnabled: true,
+                    controlIconsEnabled: true,
+                    fit: 1,
+                    center: 1,
+                    customEventsHandler: eventsHandler
+                });
+            });
+
+
+        });
 
         getPosition(data.locations, function (position) { //getPosition callback
             var current_position = position;
@@ -166,6 +174,7 @@ function initMap() {
             SearchLocation.searchData(error_locations); // rendering location for search
         }
     }
+
     // same postion but for testing without https
     // function getPosition(cb) {
     //     // Try HTML5 geolocation.
@@ -183,18 +192,18 @@ function initMap() {
         console.log(detectIE());
         //if (detectIE() === false) {
 
-            var markers = data.locations.map(function (location, i) {
-                // center to bounds
-                var loc = new google.maps.LatLng(location.coordinates);
-                bounds.extend(loc);
+        var markers = data.locations.map(function (location, i) {
+            // center to bounds
+            var loc = new google.maps.LatLng(location.coordinates);
+            bounds.extend(loc);
 
-                // adding markers
-                return new google.maps.Marker({
-                    position: location.coordinates,
-                    //labels
-                    label: location.label,
-                });
+            // adding markers
+            return new google.maps.Marker({
+                position: location.coordinates,
+                //labels
+                label: location.label,
             });
+        });
 
         // } else {
         //     var markers = JSON.parse(data).locations.map(function (location, i) {
@@ -212,19 +221,19 @@ function initMap() {
         // }
 
         // if (detectIE() === false) {
-            // Add a marker clusterer to manage the markers.
-            var markerCluster = new MarkerClusterer(map, markers,
-                {
-                    gridSize: 15,
-                    imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
-                });
-
-            // Add links to markers to open in google maps for directions
-            var gMapsClick = data.locations.map(function (location, i) {
-                return markers[i].addListener('click', function () {
-                    window.open('https://www.google.com/maps/dir/?api=1&destination=' + location.coordinates.lat + ',' + location.coordinates.lng, '_blank');
-                });
+        // Add a marker clusterer to manage the markers.
+        var markerCluster = new MarkerClusterer(map, markers,
+            {
+                gridSize: 15,
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m',
             });
+
+        // Add links to markers to open in google maps for directions
+        var gMapsClick = data.locations.map(function (location, i) {
+            return markers[i].addListener('click', function () {
+                window.open('https://www.google.com/maps/dir/?api=1&destination=' + location.coordinates.lat + ',' + location.coordinates.lng, '_blank');
+            });
+        });
 
         // } else {
         //     // Add a marker clusterer to manage the markers.

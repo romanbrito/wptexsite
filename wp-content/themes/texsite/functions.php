@@ -195,6 +195,7 @@ function texsite_scripts()
         wp_enqueue_script('mustache', 'https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.0/mustache.min.js', array(), null, false);
         wp_enqueue_script('svg-pan-zoom', get_template_directory_uri() . '/js/svg-pan-zoom.js', array(), null, false);
         wp_enqueue_script('hammer-js', get_template_directory_uri() . '/js/hammer.min.js', array(), null, false);
+        wp_enqueue_script('template-script', get_template_directory_uri() . '/js/locationTemplate.js', array(), null, true);
         wp_enqueue_script('location-map', get_template_directory_uri() . '/js/locationMap.js', array(), null, true);
         wp_enqueue_script('googleMaps-examples', 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js', array(), null, true);
         wp_enqueue_script('googleMaps-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=initMap', array(), null, true);
