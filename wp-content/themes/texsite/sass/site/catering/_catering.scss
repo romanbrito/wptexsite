@@ -1,6 +1,10 @@
+.btn-danger {
+  background: $color__background-bar;
+}
+
 .catering {
 
-  li>a:hover {
+  li > a:hover {
     text-decoration: none;
     background-color: transparent;
   }
@@ -12,16 +16,27 @@
 }
 
 .text-cater {
+  text-align: center;
   padding: 2em 0;
-
-  .btn-danger {
-
-    background: $color__background-bar;
-    width: 100%;
-  }
 
   a:visited {
     color: #ffffff;
+  }
+
+  .large-screen, .medium-screen {
+    display: none;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .large-screen {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .medium-screen {
+      display: block;
+    }
   }
 
 }
@@ -43,6 +58,10 @@
 
 .order-text {
   position: relative;
+
+  .cater-img {
+    min-height: 10%;
+  }
 }
 
 .order-box .order-content {
@@ -50,9 +69,34 @@
 }
 
 .order-content {
-  .btn-danger {
-    width: 28%;
-    background: $color__background-bar;
+
+  h3 {
+    font-size: 1em;
   }
+
+  .large-screen, .medium-screen {
+    display: none;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .large-screen {
+      display: block;
+    }
+
+    h3 {
+      font-size: 2em;
+    }
+
+  }
+
+  @media screen and (min-width: 768px) {
+    .medium-screen {
+      display: block;
+    }
+
+    h3 {
+      font-size: 1.7em;
+    }
+  }
+
 }
-//

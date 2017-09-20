@@ -500,7 +500,7 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #777;
+	color: #2d2d2d;
 }
 
 a:visited {
@@ -996,6 +996,10 @@ img {
 /*--------------------------------------------------------------
 ## catering page
 --------------------------------------------------------------*/
+.btn-danger {
+	background: #c80000;
+}
+
 .catering li > a:hover {
 	text-decoration: none;
 	background-color: transparent;
@@ -1006,16 +1010,28 @@ img {
 }
 
 .text-cater {
+	text-align: center;
 	padding: 2em 0;
-}
-
-.text-cater .btn-danger {
-	background: #c80000;
-	width: 100%;
 }
 
 .text-cater a:visited {
 	color: #ffffff;
+}
+
+.text-cater .large-screen, .text-cater .medium-screen {
+	display: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.text-cater .large-screen {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.text-cater .medium-screen {
+		display: block;
+	}
 }
 
 .order-box {
@@ -1037,13 +1053,38 @@ img {
 	position: relative;
 }
 
+.order-text .cater-img {
+	min-height: 10%;
+}
+
 .order-box .order-content {
 	color: #ffffff;
 }
 
-.order-content .btn-danger {
-	width: 28%;
-	background: #c80000;
+.order-content h3 {
+	font-size: 1em;
+}
+
+.order-content .large-screen, .order-content .medium-screen {
+	display: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.order-content .large-screen {
+		display: block;
+	}
+	.order-content h3 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.order-content .medium-screen {
+		display: block;
+	}
+	.order-content h3 {
+		font-size: 1.7em;
+	}
 }
 
 /*--------------------------------------------------------------
