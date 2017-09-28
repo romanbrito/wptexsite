@@ -168,7 +168,7 @@
         "lat": 32.732301,
         "lng": -97.108553
       },
-      "houseMenuUrl": "",
+      "houseMenuUrl": ["House_UTA-1.svg", "House_UTA-2.svg"],
       "cateringMenuUrl": ""
     },
     {

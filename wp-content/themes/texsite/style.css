@@ -278,8 +278,8 @@ textarea {
 	select,
 	optgroup,
 	textarea {
-		font-size: 20px;
-		font-size: 2rem;
+		font-size: 18px;
+		font-size: 1.8rem;
 	}
 }
 
@@ -772,41 +772,39 @@ img {
 
 .text-box {
 	position: absolute;
-	text-align: center;
 	opacity: 0.9;
-	top: 50%;
-	left: 25%;
-	-webkit-transform: translate(-50%, -50%);
-	        transform: translate(-50%, -50%);
-	padding-left: 6em;
-	padding-right: 6em;
+	top: 1px;
 }
 
 .text-box h3 {
 	font-size: 1.8em;
+	margin: 7px 0;
+}
+
+.text-box p {
+	margin: 0;
 }
 
 @media screen and (max-width: 767px) {
 	.text-box {
-		font-size: 10px;
-		font-size: 1rem;
-		left: 50%;
+		font-size: 8px;
+		font-size: 0.8rem;
 		width: 100%;
 	}
 	.text-box h3 {
-		font-size: 1.3em;
+		font-size: 1em;
+		font-weight: 700;
 	}
 }
 
 @media screen and (max-width: 1580px) and (min-width: 768px) {
 	.text-box {
-		font-size: 16px;
-		font-size: 1.6rem;
-		left: 50%;
+		font-size: 14px;
+		font-size: 1.4rem;
 		width: 100%;
 	}
 	.text-box h3 {
-		font-size: 1.7em;
+		font-size: 1.6em;
 	}
 }
 
@@ -833,6 +831,7 @@ img {
 
 .our-text {
 	position: relative;
+	overflow: auto;
 }
 
 /*--------------------------------------------------------------

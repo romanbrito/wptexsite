@@ -53,33 +53,33 @@ img {
 
 .text-box {
   position: absolute;
-  text-align: center;
   opacity: 0.9;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  padding-left: 6em;
-  padding-right: 6em;
+  top: 1px;
+
 
   h3 {
     font-size: 1.8em;
+    margin: 7px 0;
+  }
+
+  p {
+    margin: 0;
   }
 
   @media screen and (max-width: 767px) {
-    @include font-size(.5);
+    @include font-size(.4);
     h3 {
-      font-size: 1.3em;
+      font-size: 1em;
+      font-weight: 700;
     }
-    left: 50%;
     width: 100%;
   }
 
   @media screen and (max-width: 1580px) and (min-width: 768px) {
-    @include font-size(.8);
+    @include font-size(.7);
     h3 {
-      font-size: 1.7em;
+      font-size: 1.6em;
     }
-    left: 50%;
     width: 100%;
   }
 
@@ -102,6 +102,7 @@ img {
 
 .our-text {
   position: relative;
+  overflow: auto;
 }
 
 //end our story
