@@ -89,6 +89,25 @@
     padding-right: 2em;
   }
 }
+
+.modal-lg {
+
+  @media screen and (min-width: 768px) {
+    width: 90vw;
+  }
+
+  a.right.carousel-control, a.left.carousel-control {
+    background-image: none;
+    opacity: 1;
+    width: 20px;
+  }
+
+  i.fa.fa-print, button.close {
+    font-size: 2em;
+  }
+
+}
+
 //.section-full {
 //  height:100vh;
 //  min-height:100vh;

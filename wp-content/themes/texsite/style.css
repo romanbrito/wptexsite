@@ -992,6 +992,22 @@ img {
 	padding-right: 2em;
 }
 
+@media screen and (min-width: 768px) {
+	.modal-lg {
+		width: 90vw;
+	}
+}
+
+.modal-lg a.right.carousel-control, .modal-lg a.left.carousel-control {
+	background-image: none;
+	opacity: 1;
+	width: 20px;
+}
+
+.modal-lg i.fa.fa-print, .modal-lg button.close {
+	font-size: 2em;
+}
+
 /*--------------------------------------------------------------
 ## catering page
 --------------------------------------------------------------*/

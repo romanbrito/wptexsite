@@ -16,8 +16,8 @@
         "lat": 30.395012,
         "lng": -97.749017
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_GH-1", "House_GH-2"],
+      "cateringMenuUrl": ["Catering_GH-1"]
     },
     {
       "name": "Lakeline",
@@ -168,8 +168,8 @@
         "lat": 32.732301,
         "lng": -97.108553
       },
-      "houseMenuUrl": ["House_UTA-1.svg", "House_UTA-2.svg"],
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_UTA-1", "House_UTA-2"],
+      "cateringMenuUrl": ["Catering_UTA-1"]
     },
     {
       "name": "OKC",

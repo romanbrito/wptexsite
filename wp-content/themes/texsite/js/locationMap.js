@@ -10,6 +10,9 @@ function initMap() {
         <!--mustache script-->
         RunTemplate.tmplt(data, function () {
 
+            // cycle for multipage svg
+            $('.item:first-child').addClass("active");
+
             // load menu svg event listener
 
             // support for touchscreens
@@ -89,9 +92,6 @@ function initMap() {
                     customEventsHandler: eventsHandler
                 });
             });
-
-            // cycle
-
         });
 
         getPosition(data.locations, function (position) { //getPosition callback
