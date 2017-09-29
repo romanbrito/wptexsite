@@ -17,7 +17,7 @@
         "lng": -97.749017
       },
       "houseMenuUrl": ["House_GH-1", "House_GH-2"],
-      "cateringMenuUrl": ["Catering_GH-1"]
+      "cateringMenuUrl": ["Catering_GH-1", "Catering_GH-2", "Catering_GH-3", "Catering_GH-4"]
     },
     {
       "name": "Lakeline",
@@ -35,8 +35,8 @@
         "lat": 30.474465,
         "lng": -97.801183
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_LL-1", "House_LL-2"],
+      "cateringMenuUrl": ["Catering_LL-1"]
     },
     {
       "name": "Sunset Valley",
@@ -54,8 +54,8 @@
         "lat": 30.228924,
         "lng": -97.822714
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_SS-1", "House_SS-2"],
+      "cateringMenuUrl": ["Catering_SS-1", "Catering_SS-2"]
     },
     {
       "name": "Frisco-Warren Pkwy",
@@ -73,8 +73,8 @@
         "lat": 33.106217,
         "lng": -96.824965
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_FR-1", "House_FR-2"],
+      "cateringMenuUrl": ["Catering_FR-1", "Catering_FR-2"]
     },
     {
       "name": "Las Colinas",
@@ -92,8 +92,8 @@
         "lat": 32.909483,
         "lng": -96.959442
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_CO-1", "House_CO-2"],
+      "cateringMenuUrl": ["Catering_CO-1"]
     },
     {
       "name":  "Old Town",
@@ -111,8 +111,8 @@
         "lat": 32.853438,
         "lng": -96.768555
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_OT-1", "House_OT-2"],
+      "cateringMenuUrl": ["Catering_OT-1"]
     },
     {
       "name": "Plano",
@@ -130,8 +130,8 @@
         "lat": 33.053774,
         "lng": -96.796717
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_PL-1", "House_PL-2"],
+      "cateringMenuUrl": ["Catering_PL-1", "Catering_PL-2"]
     },
     {
       "name": "Richardson",
@@ -149,8 +149,8 @@
         "lat": 32.949224,
         "lng": -96.736778
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_RI-1", "House_RI-2"],
+      "cateringMenuUrl": ["Catering_RI-1", "Catering_RI-2"]
     },
     {
       "name": "Arlington",
@@ -187,8 +187,8 @@
         "lat": 35.46395,
         "lng": -97.510094
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_BR-1", "House_BR-2"],
+      "cateringMenuUrl": ["Catering_BR-1", "Catering_BR-2"]
     },
     {
       "name": "Laredo",
@@ -206,8 +206,8 @@
         "lat": 27.575264,
         "lng": -99.471407
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_LR-1", "House_LR-2"],
+      "cateringMenuUrl": ["Catering_LR-1", "Catering_LR-2"]
     },
     {
       "name": "McAllen",
@@ -225,8 +225,8 @@
         "lat": 26.194533,
         "lng": -98.205324
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": ["House_MC-1"],
+      "cateringMenuUrl": ["Catering_MC-1", "Catering_MC-2", "Catering_MC-3", "Catering_MC-4"]
     },
     {
       "name": "Houston-Westheimer",
@@ -244,8 +244,8 @@
         "lat": 29.7368233,
         "lng": -95.513883
       },
-      "houseMenuUrl": "",
-      "cateringMenuUrl": ""
+      "houseMenuUrl": [],
+      "cateringMenuUrl": []
     }
   ]
 }

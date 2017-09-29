@@ -46,8 +46,13 @@
         <figure class="instagram-gallery">
             <?php get_sidebar('frontpage'); ?>
         </figure>
-
     <?php endif; // End instagram front image ?>
+    <!-- -->
+
+    <!-- display only in about-->
+    <?php if (is_page('about-us')) : ?>
+        <?php get_sidebar('about'); ?>
+    <?php endif; // End about page ?>
     <!-- -->
 
     <?php if (get_edit_post_link()) : ?>

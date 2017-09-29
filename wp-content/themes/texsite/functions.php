@@ -158,6 +158,17 @@ function texsite_widgets_init()
         'before_title' => '<h2 class="widget-title">',
         'after_title' => '</h2>',
     ));
+
+    //About sidebar
+    register_sidebar(array(
+        'name' => esc_html__('about-widget', 'texsite'),
+        'id' => 'about',
+        'description' => esc_html__('about', 'texsite'),
+        'before_widget' => '<section id="%1$s" class="widget %2$s">',
+        'after_widget' => '</section>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ));
 }
 
 add_action('widgets_init', 'texsite_widgets_init');
