@@ -17,6 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
 
+<!--    meta description -->
+    <meta name="description" content="Home of the original texas cheesesteak, with locations in Texas and Oklahoma offering catering and delicious sandwiches with a texas twist"/>
+
+<!--    meta keywords-->
+    <meta name="keywords" content="Catering, Office Party, Events, Cheesesteaks, Sandwich, Texas Destination, Oklahoma Destination" />
+
     <?php wp_head(); ?>
 </head>
 
