@@ -30,7 +30,8 @@ function getInstagram(data) {
             output += '<div class="instagram-pic col-lg-1 col-md-2 col-sm-3 col-xs-4">';
             output += '<div class="">';
             output += '<a href="' + element.link + '" target="_blank">';
-            output += '<img src=' + element.images.standard_resolution.url + ' alt="Lights" style="width:100%">';
+            output += '<img src=' + element.images.low_resolution.url + ' alt="Lights" style="width:100%">';
+            // using low_resolution vs standard_resolution
             output += '<div class="caption">';
             // if ( element.caption) {
             // output += '<p>' + element.caption.text + '</p>';
