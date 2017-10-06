@@ -816,7 +816,16 @@ img {
 
 .red-bar {
 	background: #c80000;
-	height: 7vh;
+	height: 4vh;
+}
+
+.grey-bar {
+	background: #ccc;
+	height: 1vh;
+}
+
+.blank-bar {
+	height: 5vh;
 }
 
 .our-title {
@@ -1039,6 +1048,10 @@ img {
 	color: #ffffff;
 }
 
+.text-cater h1 {
+	font-size: 2.5em;
+}
+
 .text-cater .large-screen, .text-cater .medium-screen {
 	display: none;
 }
@@ -1074,6 +1087,10 @@ img {
 	position: relative;
 }
 
+.order-text a:visited {
+	color: #ffffff;
+}
+
 .order-text .cater-img {
 	min-height: 10%;
 }
@@ -1106,6 +1123,33 @@ img {
 	.order-content h3 {
 		font-size: 1.7em;
 	}
+}
+
+/*--------------------------------------------------------------
+## about page
+--------------------------------------------------------------*/
+.about-text h1 {
+	font-size: 2em;
+}
+
+.about-text h3 {
+	font-size: 1.5em;
+}
+
+.about-text p {
+	font-size: 1em;
+}
+
+.about-bottom {
+	padding: 0;
+}
+
+.about-bottom .col-xs-4 {
+	padding: 0;
+}
+
+.about-bottom img {
+	width: 100%;
 }
 
 /*--------------------------------------------------------------

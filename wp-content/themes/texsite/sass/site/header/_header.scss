@@ -87,7 +87,16 @@ img {
 
 .red-bar {
   background: $color__background-bar;
-  height: 7vh;
+  height: 4vh;
+}
+
+.grey-bar {
+  background: $color__background-hr;
+  height: 1vh;
+}
+
+.blank-bar {
+  height: 5vh;
 }
 
 .our-title {
