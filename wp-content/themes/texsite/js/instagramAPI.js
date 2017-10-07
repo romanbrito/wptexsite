@@ -7,7 +7,7 @@
 
 
 function getInstagram(data) {
-    console.log(data);
+    // console.log(data);
     var i = 0;
     var output = '<div class="container-fluid  instagram-bkg">';
     output += '<div class="row">';

@@ -847,6 +847,7 @@ img {
 .our-text {
 	position: relative;
 	overflow: auto;
+	padding-left: 2vw;
 }
 
 /*--------------------------------------------------------------
