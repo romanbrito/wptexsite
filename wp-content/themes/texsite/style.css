@@ -861,7 +861,7 @@ span.icon-bar {
 
 @media screen and (max-width: 767px) {
 	.custom-logo-link {
-		max-width: 300px;
+		max-width: 250px;
 	}
 }
 

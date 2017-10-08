@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad1acf0-9ac2-4b4b-a842-7e6bc8347e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768BaconCheddar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768Catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768Founders.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768SouthPhilly.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450BaconCheddar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450Catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450Founders.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450SouthPhilly.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768BaconCheddar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768Catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768Founders.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768SouthPhilly.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370BaconCheddar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370Catering.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370Founders.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370SouthPhilly.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,14 +20,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45667753">
+    <splitter split-orientation="horizontal" split-proportion="0.6110749">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="navegationOrig.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="navegationOrig.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="311" column="0" lean-forward="true" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+                <state relative-caret-position="51">
+                  <caret line="192" column="41" lean-forward="false" selection-start-line="192" selection-start-column="41" selection-end-line="192" selection-end-column="41" />
                   <folding>
                     <element signature="n#div#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#!!top" expanded="false" />
@@ -64,11 +55,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+                <state relative-caret-position="1020">
+                  <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -81,8 +72,8 @@
           <file leaf-file-name="_front-page.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -215,8 +206,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/instagramAPI.js" />
         <option value="$USER_HOME$/Desktop/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/gulp-dev/Gulpfile.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss" />
       </list>
     </option>
@@ -286,43 +277,6 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="texsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="texsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="texsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="frontpage" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="texsite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="header" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -339,17 +293,17 @@
     <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\images" />
-      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\js" />
-      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\svg" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\pdf" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\js" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\sass\layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\images" />
+      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\js" />
+      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,12 +349,12 @@
       <workItem from="1507252923732" duration="4794000" />
       <workItem from="1507342189665" duration="197000" />
       <workItem from="1507495654185" duration="793000" />
-      <workItem from="1507498285677" duration="1457000" />
+      <workItem from="1507498285677" duration="2221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308448000" />
+    <option name="totallyTimeSpent" value="309212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -742,10 +696,57 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <marker date="1501889175804" expanded="true" signature="29372:29385" ph="..." />
+            <marker date="1501889175804" expanded="true" signature="56013:56195" ph="SELECT YEAR(... " />
+            <marker date="1501889175804" expanded="true" signature="57087:57222" ph="SELECT YEAR(... " />
+            <marker date="1501889175804" expanded="true" signature="57987:58231" ph="SELECT YEAR(... " />
+            <marker date="1501889175804" expanded="true" signature="59202:59440" ph="SELECT DISTI... " />
+            <marker date="1501889175804" expanded="true" signature="60844:60902" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1501889175804" expanded="true" signature="63207:63302" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
+            <marker date="1501889175804" expanded="true" signature="64540:64754" ph="SELECT MONTH... " />
+            <marker date="1501889175804" expanded="true" signature="64783:65014" ph="SELECT MONTH... " />
+            <marker date="1501889175804" expanded="true" signature="65190:65331" ph="..." />
+            <marker date="1501889175804" expanded="true" signature="65325:65331" ph="..." />
+            <marker date="1501889175804" expanded="true" signature="65776:65782" ph="..." />
+            <marker date="1501889175804" expanded="true" signature="66585:66591" ph="..." />
+            <marker date="1501889175804" expanded="true" signature="66684:66919" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="311" column="0" lean-forward="true" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="192" column="41" lean-forward="false" selection-start-line="192" selection-start-column="41" selection-end-line="192" selection-end-column="41" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#!!top" expanded="false" />
@@ -772,57 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <marker date="1501889175804" expanded="true" signature="29372:29385" ph="..." />
-            <marker date="1501889175804" expanded="true" signature="56013:56195" ph="SELECT YEAR(... " />
-            <marker date="1501889175804" expanded="true" signature="57087:57222" ph="SELECT YEAR(... " />
-            <marker date="1501889175804" expanded="true" signature="57987:58231" ph="SELECT YEAR(... " />
-            <marker date="1501889175804" expanded="true" signature="59202:59440" ph="SELECT DISTI... " />
-            <marker date="1501889175804" expanded="true" signature="60844:60902" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
-            <marker date="1501889175804" expanded="true" signature="63207:63302" ph="SELECT 1 as ${$wpdb-&gt;posts}" />
-            <marker date="1501889175804" expanded="true" signature="64540:64754" ph="SELECT MONTH... " />
-            <marker date="1501889175804" expanded="true" signature="64783:65014" ph="SELECT MONTH... " />
-            <marker date="1501889175804" expanded="true" signature="65190:65331" ph="..." />
-            <marker date="1501889175804" expanded="true" signature="65325:65331" ph="..." />
-            <marker date="1501889175804" expanded="true" signature="65776:65782" ph="..." />
-            <marker date="1501889175804" expanded="true" signature="66585:66591" ph="..." />
-            <marker date="1501889175804" expanded="true" signature="66684:66919" ph="SELECT DISTI... ${$wpdb-&gt;posts}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="66" column="34" lean-forward="true" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding />
         </state>
       </provider>
