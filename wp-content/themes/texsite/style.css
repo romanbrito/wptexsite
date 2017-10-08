@@ -742,12 +742,6 @@ span.icon-bar {
 	vertical-align: middle;
 }
 
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
-
 .slider-caption {
 	position: absolute;
 	bottom: 20px;
@@ -853,6 +847,65 @@ img {
 /*--------------------------------------------------------------
 ## Frontpage widget
 --------------------------------------------------------------*/
+.custom-logo-link {
+	/* small screen */
+	/* medium screen */
+	/* large screen */
+}
+
+.custom-logo-link img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 767px) {
+	.custom-logo-link {
+		max-width: 300px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.custom-logo-link {
+		max-width: 500px;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1079px) {
+	.custom-logo-link {
+		max-width: 700px;
+	}
+}
+
+.item .small-screen, .item .medium-screen, .item .large-screen, .item .extra-large-screen {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.item .small-screen {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.item .medium-screen {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1079px) {
+	.item .large-screen {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.item .extra-large-screen {
+		display: block;
+	}
+}
+
+/*instagramAPI script*/
 .instagram-pic {
 	padding: 0;
 	margin: 0;
