@@ -592,17 +592,16 @@ span.icon-bar {
 	text-decoration: none;
 }
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+/* Small menu. bootstrap custom */
+.navbar-toggle {
 	display: block;
 }
 
 @media screen and (min-width: 37.5em) {
-	.menu-toggle {
+	.navbar-toggle {
 		display: none;
 	}
-	.main-navigation ul {
+	.main-nav ul {
 		display: block;
 	}
 }
@@ -1059,6 +1058,10 @@ span.icon-bar {
 .location-modal i.fa.fa-print {
 	float: right;
 	padding-right: 2em;
+}
+
+.modal-lg object {
+	height: 77vh;
 }
 
 @media screen and (min-width: 768px) {

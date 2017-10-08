@@ -87,17 +87,16 @@ span.icon-bar {
 	}
 }
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
+/* Small menu. bootstrap custom */
+.navbar-toggle {
 	display: block;
 }
 
 @media screen and (min-width: 37.5em) {
-	.menu-toggle {
+	.navbar-toggle {
 		display: none;
 	}
-	.main-navigation ul {
+	.main-nav ul {
 		display: block;
 	}
 }

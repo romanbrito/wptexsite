@@ -31,35 +31,28 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <p class="modal-title">{{name}} Menu<a href="/wp-content/themes/texsite/pdf/House_{{label}}.pdf"
+                    <p class="modal-title">{{name}} Menu<a href="../wp-content/themes/texsite/pdf/House_{{label}}.pdf"
                                                            target="_blank"><i class="fa fa-print"
                                                                               aria-hidden="true"></i></a></p>
                 </div>
                 <div class="modal-body">
-                    <!--svg multipage-->
-                    <div id="menuCarousel-{{label}}" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner" role="listbox">
-                            {{#houseMenuUrl}}
-                            <div class="item" id="{{.}}">
-                                <!--svg image-->
-                                <object rel="svg-menu-{{label}}" id="{{.}}-svg" class="svg-image" type="image/svg+xml"
-                                        data="/wp-content/themes/texsite/svg/{{.}}.svg" style="width: 100%">
-                                    Your browser does not support svg objects
+                    <!--pdf menu-->
+
+
+
+
+                                <!--pdf object-->
+                                <object rel="pdf-menu-{{label}}" id="{{label}}-menu-pdf" class="pdf-image" type="application/pdf"
+                                        data="../wp-content/themes/texsite/pdf/House_{{label}}.pdf" style="width: 100%">
+                                    Your browser does not support objects
                                 </object>
                                 <!---->
-                            </div>
-                            {{/houseMenuUrl}}
-                        </div>
-                    </div>
-                    <a class="left carousel-control" href="#menuCarousel-{{label}}" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#menuCarousel-{{label}}" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    <!--end svg multipage-->
+
+
+
+
+
+                    <!--end pdf menu-->
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -74,34 +67,27 @@
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <p class="modal-title">{{name}} Catering<a
-                            href="/wp-content/themes/texsite/pdf/Catering_{{label}}.pdf" target="_blank"><i
+                            href="../wp-content/themes/texsite/pdf/Catering_{{label}}.pdf" target="_blank"><i
                             class="fa fa-print" aria-hidden="true"></i></a></p>
                 </div>
                 <div class="modal-body">
-                    <!--svg multipage-->
-                    <div id="catCarousel-{{label}}" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner" role="listbox">
-                            {{#cateringMenuUrl}}
-                            <div class="item" id="{{.}}">
+                    <!--pdf cater-->
+
+
+
+
                                 <!--svg image-->
-                                <object rel="svg-cat-{{label}}" id="{{.}}-svg" class="svg-image" type="image/svg+xml"
-                                        data="/wp-content/themes/texsite/svg/{{.}}.svg" style="width: 100%">
-                                    Your browser does not support svg objects
+                                <object rel="pdf-cat-{{label}}" id="{{label}}-cat-pdf" class="pdf-image" type="application/pdf"
+                                        data="../wp-content/themes/texsite/pdf/Catering_{{label}}.pdf" style="width: 100%">
+                                    Your browser does not support objects
                                 </object>
                                 <!---->
-                            </div>
-                            {{/cateringMenuUrl}}
-                        </div>
-                    </div>
-                    <a class="left carousel-control" href="#catCarousel-{{label}}" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#catCarousel-{{label}}" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    <!--end svg multipage-->
+
+
+
+
+
+                    <!--end pdf cater-->
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
