@@ -1,0 +1,134 @@
+#bg-app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1000;
+}
+
+.app-titles {
+  /* small screen */
+  @media screen and (max-width: 767px) {
+    /*max-width: 250px;*/
+
+    .brown-layer {
+      top: 5em;
+    }
+
+    .blank-bar {
+      height: 0;
+    }
+  }
+
+  /* medium screen */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*max-width: 500px;*/
+  }
+
+  /* large screen */
+  @media screen and (min-width: 1024px) and (max-width: 1079px) {
+    /* max-width: 700px;*/
+  }
+}
+
+.app-content {
+  li {
+    color: #4e170d;
+    font-size: 2em;
+  }
+  li:before {
+    content: '* ';
+  }
+  h1 {
+    font-family: "chunk", serif;
+    color: #4e170d;
+  }
+  /* small screen */
+  @media screen and (max-width: 767px) {
+    /*max-width: 250px;*/
+    h1 {
+      font-size: 1em;
+    }
+    li {
+      font-size: 1em;
+    }
+
+  }
+
+  /* medium screen */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*max-width: 500px;*/
+  }
+
+  /* large screen */
+  @media screen and (min-width: 1024px) and (max-width: 1079px) {
+    /* max-width: 700px;*/
+  }
+}
+
+.text-bar {
+  position: absolute;
+  left: 0;
+  top: 2em;
+  width: 100%;
+  padding-left: 2em;
+  font-size: 2em;
+  color: #FFFFFF;
+  /*text-align: center;*/
+
+  /* small screen */
+  @media screen and (max-width: 767px) {
+    /*max-width: 250px;*/
+    font-size: .8em;
+    top: 1em;
+  }
+
+  /* medium screen */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /*max-width: 500px;*/
+  }
+
+  /* large screen */
+  @media screen and (min-width: 1024px) and (max-width: 1079px) {
+    /* max-width: 700px;*/
+  }
+}
+
+.title-top {
+  top: 10vh;
+}
+
+.title {
+  top: 40vh;
+}
+
+.brown-layer {
+  position: absolute;
+  top: 0px;
+  z-index: -500;
+  width: 100%;
+}
+
+.blank-bar {
+  height: 5vh;
+}
+
+ul {
+  list-style: none;
+}
+
+#masthead {
+  background: #FFFFFF;
+}
+
+.center-app img {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.blank-bar-app {
+  height: 2vh;
+}

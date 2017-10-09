@@ -92,12 +92,13 @@
 
 .modal-lg {
 
-  object {
-    height: 77vh;
-  }
-
   @media screen and (min-width: 768px) {
     width: 90vw;
+
+    object {
+      height: 77vh;
+    }
+
   }
 
   a.right.carousel-control, a.left.carousel-control {
