@@ -12,8 +12,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
         <?php
-        // do not show title on locations and menu page and About us
-        if (!is_page('locations-menu') and !is_page('about-us') and !is_page('we-cater')):
+        // do not show title on locations and menu page, About us and Franchising
+        if (!is_page('locations-menu') and !is_page('about-us') and !is_page('we-cater') and !is_page('franchising')):
         the_title('<h1 class="entry-title">', '</h1>');
         endif;
 
