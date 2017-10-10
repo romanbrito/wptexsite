@@ -9,13 +9,12 @@
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
 }
 
 .red-bar {
   background: $color__background-bar;
   height: 4vh;
-
 
   padding-left: 2em;
 
@@ -34,12 +33,44 @@
   position: relative;
   overflow: auto;
   padding-left: 2vw;
+  p {
+    margin: 0;
+  }
+
+  .small-screen, .medium-screen, .large-screen, .extra-large-screen {
+    display: none;
+  }
+
+  .small-screen {
+    @media screen and (max-width: 360px) {
+      display: inline-block;
+    }
+  }
+
+  .medium-screen {
+    @media screen and (min-width: 768px) {
+      display: inline-block;
+    }
+  }
+
+  .large-screen {
+    @media screen and (min-width: 1024px) {
+      display: inline-block;
+    }
+  }
+
+  .extra-large-screen {
+    @media screen and (min-width: 1024px) {
+      display: inline-block;
+    }
+  }
+
 }
 
 .text-box {
   position: absolute;
   opacity: 0.9;
-  top: 1px;
+  top: 1em;
 }
 
 /* small screen */
@@ -68,7 +99,6 @@
   .text-box {
     h3 {
       font-size: .9em;
-      margin: 3px;
       font-weight: 700;
     }
     p {
@@ -88,29 +118,13 @@
 }
 
 /* extra large screen */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
 
 }
 
 //end slider
 
 //our story
-
-.large-screen, .medium-screen {
-  display: none;
-}
-
-.large-screen {
-  @media screen and (min-width: 1024px) {
-    display: inline-block;
-  }
-}
-
-.medium-screen {
-  @media screen and (min-width: 768px) {
-    display: inline-block;
-  }
-}
 
 .grey-bar {
   background: $color__background-hr;

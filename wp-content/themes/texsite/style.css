@@ -763,10 +763,42 @@ span.icon-bar {
 	padding-left: 2vw;
 }
 
+.our-text p {
+	margin: 0;
+}
+
+.our-text .small-screen, .our-text .medium-screen, .our-text .large-screen, .our-text .extra-large-screen {
+	display: none;
+}
+
+@media screen and (max-width: 360px) {
+	.our-text .small-screen {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.our-text .medium-screen {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.our-text .large-screen {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.our-text .extra-large-screen {
+		display: inline-block;
+	}
+}
+
 .text-box {
 	position: absolute;
 	opacity: 0.9;
-	top: 1px;
+	top: 1em;
 }
 
 /* small screen */
@@ -788,7 +820,6 @@ span.icon-bar {
 	}
 	.text-box h3 {
 		font-size: .9em;
-		margin: 3px;
 		font-weight: 700;
 	}
 	.text-box p {
@@ -799,22 +830,6 @@ span.icon-bar {
 /* medium screen */
 /* large screen */
 /* extra large screen */
-.large-screen, .medium-screen {
-	display: none;
-}
-
-@media screen and (min-width: 1024px) {
-	.large-screen {
-		display: inline-block;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.medium-screen {
-		display: inline-block;
-	}
-}
-
 .grey-bar {
 	background: #ccc;
 	height: 1vh;
