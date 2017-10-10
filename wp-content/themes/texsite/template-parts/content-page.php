@@ -55,6 +55,12 @@
     <?php endif; // End about page ?>
     <!-- -->
 
+    <!-- display only in texnation-->
+    <?php if (is_page('texnation-loyalty-program')) : ?>
+        <?php get_sidebar('texnation'); ?>
+    <?php endif; // End about page ?>
+    <!-- -->
+
     <?php if (get_edit_post_link()) : ?>
         <footer class="entry-footer">
             <?php

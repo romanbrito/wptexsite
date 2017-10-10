@@ -1258,10 +1258,10 @@ span.icon-bar {
 		/*max-width: 250px;*/
 	}
 	.app-titles .brown-layer {
-		top: 5em;
+		top: 6em;
 	}
-	.app-titles .blank-bar {
-		height: 0;
+	.app-titles .blank-bar-app {
+		height: 1em;
 	}
 }
 
