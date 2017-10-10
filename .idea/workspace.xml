@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad1acf0-9ac2-4b4b-a842-7e6bc8347e9d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss" />
@@ -15,13 +16,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50948167">
+    <splitter split-orientation="horizontal" split-proportion="0.56005055">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="_front-page.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
+                <state relative-caret-position="404">
                   <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
                   <folding />
                 </state>
@@ -31,8 +32,8 @@
           <file leaf-file-name="navegationOrig.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="422" column="0" lean-forward="false" selection-start-line="422" selection-start-column="0" selection-end-line="455" selection-end-column="32" />
+                <state relative-caret-position="455">
+                  <caret line="445" column="89" lean-forward="true" selection-start-line="445" selection-start-column="89" selection-end-line="445" selection-end-column="89" />
                   <folding>
                     <element signature="n#div#0;n#!!top" expanded="false" />
                     <element signature="n#div#1;n#!!top" expanded="false" />
@@ -103,8 +104,8 @@
           <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="100" column="22" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+                <state relative-caret-position="387">
+                  <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -160,7 +161,6 @@
       <find>carousel fron</find>
       <find>story</find>
       <find>text-box</find>
-      <find>br</find>
       <find>&lt;br&gt;</find>
       <find>locations</find>
       <find>svg-pan-zoom-controls</find>
@@ -184,6 +184,7 @@
       <find>h1</find>
       <find>mrs</find>
       <find>location</find>
+      <find>br</find>
     </findStrings>
     <replaceStrings>
       <replace>slider-caption</replace>
@@ -406,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="342663000" />
+    <option name="totallyTimeSpent" value="346764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -825,7 +826,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="404">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
@@ -833,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="422" column="0" lean-forward="false" selection-start-line="422" selection-start-column="0" selection-end-line="455" selection-end-column="32" />
+        <state relative-caret-position="455">
+          <caret line="445" column="89" lean-forward="true" selection-start-line="445" selection-start-column="89" selection-end-line="445" selection-end-column="89" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#!!top" expanded="false" />
@@ -869,8 +870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="100" column="22" lean-forward="false" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        <state relative-caret-position="387">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
       </provider>
