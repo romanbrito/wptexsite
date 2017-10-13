@@ -914,7 +914,7 @@ span.icon-bar {
 	.our-text {
 		overflow-y: auto;
 		background: #e4e9f5;
-		background-image: url("./images/ourstory.png");
+		background-image: url("./images/ourStory.png");
 		min-height: 500px;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -940,7 +940,7 @@ span.icon-bar {
 	.our-text {
 		overflow-y: auto;
 		background: #e4e9f5;
-		background-image: url("./images/ourstory.png");
+		background-image: url("./images/ourStory.png");
 		min-height: 500px;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -1185,6 +1185,22 @@ span.icon-bar {
 .location-modal i.fa.fa-print {
 	float: right;
 	padding-right: 2em;
+}
+
+.location-modal .large-screen-locations, .location-modal .smaller-screen-locations {
+	display: none;
+}
+
+@media screen and (max-width: 766px) {
+	.location-modal .smaller-screen-locations {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 767px) {
+	.location-modal .large-screen-locations {
+		display: block;
+	}
 }
 
 @media screen and (min-width: 768px) {

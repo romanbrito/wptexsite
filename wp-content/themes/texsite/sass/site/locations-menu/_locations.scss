@@ -88,6 +88,28 @@
     float: right;
     padding-right: 2em;
   }
+
+  .large-screen-locations, .smaller-screen-locations {
+    display: none;
+  }
+
+  @media screen and (max-width: 766px) {
+
+    .smaller-screen-locations {
+      display: block;
+    }
+
+  }
+
+  @media screen and (min-width: 767px) {
+
+    .large-screen-locations {
+      display: block;
+    }
+
+  }
+
+
 }
 
 .modal-lg {
