@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad1acf0-9ac2-4b4b-a842-7e6bc8347e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/contact/_contact.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/screenshot.png" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/screenshot.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/navegationOrig.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/_site.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/_site.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/sass/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,21 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -171,7 +155,7 @@
     <handled-path value="$PROJECT_DIR$/wp-content/themes/gulp-dev/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1790" />
     <option name="y" value="-8" />
     <option name="width" value="1711" />
@@ -250,11 +234,11 @@
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\pdf" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\images" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite" />
       <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\svg" />
-      <recent name="C:\Users\giga1\workspace\WordpressSites\texsite\wp-content\themes\texsite\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -302,15 +286,15 @@
       <workItem from="1507495654185" duration="793000" />
       <workItem from="1507498285677" duration="30618000" />
       <workItem from="1507901672743" duration="587000" />
-      <workItem from="1508871590570" duration="15366000" />
+      <workItem from="1508871590570" duration="16656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413691000" />
+    <option name="totallyTimeSpent" value="414981000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -706,8 +690,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding />
         </state>
       </provider>
