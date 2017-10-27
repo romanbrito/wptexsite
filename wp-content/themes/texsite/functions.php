@@ -208,17 +208,13 @@ function texsite_scripts()
     // location map scripts
     if (is_page('locations-menu')) :
         wp_enqueue_script('last-jquery', 'https://code.jquery.com/jquery-3.2.1.min.js', array(), null, true);
-        wp_enqueue_script('googleMaps', get_template_directory_uri() . '/js/googleMaps.js', array(), null, true);
-        wp_enqueue_script('render-menu', get_template_directory_uri() . '/js/renderMenu.js', array(), null, true);
-        wp_enqueue_script('render-locations', get_template_directory_uri() . '/js/renderLocations.js', array(), null, true);
-        wp_enqueue_script('geolocation', get_template_directory_uri() . '/js/geolocation.js', array(), null, true);
-        wp_enqueue_script('locationsInit', get_template_directory_uri() . '/js/locationsInit.js', array(), null, true);
+        wp_enqueue_script('googleMaps', get_template_directory_uri() . '/locations.js', array(), 10202017, true);
     endif; // End locations page
     //
 
     // instagram
     if (is_front_page()) :
-        wp_enqueue_script('texsite-instagram', get_template_directory_uri() . '/js/instagramAPI.js', array('jquery'), '20170808', false);
+        wp_enqueue_script('texsite-instagram', get_template_directory_uri() . '/front.js', array('jquery'), '20170808', true);
     endif; // End frontpage
     //
 
