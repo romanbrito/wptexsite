@@ -31,10 +31,6 @@
         ?>
     </div><!-- .entry-content -->
 
-    <?php if (is_page('404')) : ?>
-        <?php get_sidebar('locations'); ?>
-    <?php endif; // End locations page ?>
-
     <!-- custom sidebars-->
     <!-- display only in locations-menu-->
     <?php if (is_page('locations-menu')) : ?>
