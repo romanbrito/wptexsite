@@ -201,9 +201,10 @@ function texsite_scripts()
 {
     //	bootstrap css and js
     wp_enqueue_style('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
-
     wp_enqueue_script('bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), '20170804', false);
     //
+
+    wp_enqueue_script('texsite-navigation', get_template_directory_uri() . '/all.js', array('jquery'), '20170804', true);
 
     // location map scripts
     if (is_page('locations-menu')) :
@@ -230,8 +231,6 @@ function texsite_scripts()
     wp_enqueue_style('font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
     wp_enqueue_style('texsite-style', get_stylesheet_uri());
-
-    wp_enqueue_script('texsite-navigation', get_template_directory_uri() . '/js/navigation.js', array('jquery'), '20170804', true);
 
     wp_enqueue_script('texsite-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true);
 
