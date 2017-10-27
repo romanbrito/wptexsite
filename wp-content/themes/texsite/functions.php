@@ -219,8 +219,6 @@ function texsite_scripts()
     // instagram
     if (is_front_page()) :
         wp_enqueue_script('texsite-instagram', get_template_directory_uri() . '/js/instagramAPI.js', array('jquery'), '20170808', false);
-        // get jsonp from instagram
-        wp_enqueue_script('instagram-jsonp', 'https://api.instagram.com/v1/users/self/media/recent/?access_token=3959116306.6ae6b94.93ae2da0898848099338d9cde7ac0ad2&callback=getInstagram', array(), null, true);
     endif; // End frontpage
     //
 

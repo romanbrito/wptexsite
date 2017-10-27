@@ -1,7 +1,8 @@
-
-
 function getInstagram(data) {
-    // console.log(data);
+
+    var Instagram_API_Script = document.createElement('script');
+
+
     var i = 0;
     var output = '<div class="container-fluid  instagram-bkg">';
     output += '<div class="row">';
@@ -44,4 +45,16 @@ function getInstagram(data) {
         $('.result').html(output);
     })(jQuery);
 }
-    
+
+function loadInstagram() {
+  var Instagram_API_Script = document.createElement('script');
+
+  //Instagram_API_Script.onload = getInstagram();
+
+  Instagram_API_Script.src = "https://api.instagram.com/v1/users/self/media/recent/?access_token=3959116306.6ae6b94.93ae2da0898848099338d9cde7ac0ad2&callback=getInstagram";
+
+  document.head.appendChild(Instagram_API_Script);
+
+}
+
+loadInstagram();
