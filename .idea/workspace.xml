@@ -2,400 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad1acf0-9ac2-4b4b-a842-7e6bc8347e9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/1024x768BaconCheddar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/1024x768Catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/1024x768Founders.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/1024x768SouthPhilly.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x370BaconCheddar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x370Catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x370Founders.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x370SouthPhilly.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x450BaconCheddar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x450Catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x450Founders.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/414x450SouthPhilly.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/768x768BaconCheddar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/768x768Catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/768x768Founders.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/768x768SouthPhilly.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/AppleStore.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Capitol_A.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_BR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_CO.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_FR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_GH.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_LL.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_LR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_MC.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_OT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_PL.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_RI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_SS.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_UTA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_WE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/GooglePlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_BR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_CO.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_FR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_GH.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_LL.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_LR.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_MC.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_OT.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_PL.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_RI.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_SS.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_UTA.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/House_WE.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/InstagramIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/IphoneApp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/TexNation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/aboutBurger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/aboutCheese.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/aboutCs.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/aboutFries.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/aboutNachos.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/bar-queso.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/become.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/bottomPic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/burger.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/capitol.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/catering.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/catering_tray.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/deli_tray.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/founder.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/franchising.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/ourStory.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/queso_cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/redBar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/south.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteO/images/TexStarTrans.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/1024x768SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x370SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/414x450SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/768x768SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/AppleStore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Capitol_A.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_BR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_CO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_FR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_GH.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_LL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_LR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_MC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_OT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_PL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_RI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_SS.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_UTA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Catering_WE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/GooglePlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_BR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_CO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_FR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_GH.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_LL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_LR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_MC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_OT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_PL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_RI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_SS.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_UTA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/House_WE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/IphoneApp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/TexNation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/about.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/aboutBurger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/aboutCheese.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/aboutCs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/aboutFries.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/aboutNachos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/bar-queso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/become.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/bottomPic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/burger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/capitol.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/catering_tray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/deli_tray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/founder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/franchising.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/ourStory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/queso_cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/redBar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/south.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/geolocation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/instagramAPI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/renderLocations.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/renderMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/1024x768BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/1024x768Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/1024x768Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/1024x768SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x370BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x370Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x370Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x370SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x450BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x450Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x450Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/414x450SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/768x768BaconCheddar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/768x768Catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/768x768Founders.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/768x768SouthPhilly.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/AppleStore.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Capitol_A.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_BR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_CO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_FR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_GH.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_LL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_LR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_MC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_OT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_PL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_RI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_SS.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_UTA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Catering_WE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/GooglePlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_BR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_CO.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_FR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_GH.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_LL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_LR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_MC.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_OT.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_PL.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_RI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_SS.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_UTA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/House_WE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/IphoneApp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/LightWood11x17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/TexNation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/about.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/aboutBurger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/aboutCheese.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/aboutCs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/aboutFries.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/aboutNachos.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/bar-queso.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/become.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/bottomPic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/brownLayer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/brownLayer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/brownLayer8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/burger.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/capitol.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/catering.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/catering_tray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/deli_tray.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/founder.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/franchising.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/ourStory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/queso_cut.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/redBar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/optimized/images/south.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/elements/_elements.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/elements/_lists.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/elements/_tables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/layout/_content-sidebar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/layout/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/layout/_sidebar-content.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/maps/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/media/_captions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/media/_galleries.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/media/_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/mixins/_mixins-master.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/modules/_accessibility.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/modules/_alignments.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/modules/_clearings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/modules/_infinite-scroll.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/navigation/_links.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/navigation/_menus.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/navigation/_navigation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/_site.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/about/_about.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/catering/_catering.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/contact/_contact.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/footer/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/franchising/_franchising.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/frontpage/_front-page.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/header/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/primary/_comments.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/primary/_posts-and-pages.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/secondary/_widgets.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/texNation/_texNation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/typography/_copy.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/typography/_headings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/typography/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/variables-site/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/variables-site/_structure.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/variables-site/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sass/variables-site/_variables-site.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_BR-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_BR-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_CO-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_FR-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_FR-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_GH-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_GH-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_GH-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_GH-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_LL-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_LR-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_LR-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_MC-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_MC-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_MC-3.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_MC-4.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_OT-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_PL-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_PL-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_RI-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_RI-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_SS-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_SS-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_UTA-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/Catering_UTA-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_BR-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_BR-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_CO-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_CO-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_FR-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_FR-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_GH-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_GH-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_LL-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_LL-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_LR-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_LR-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_MC-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_OT-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_OT-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_PL-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_PL-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_RI-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_RI-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_SS-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_SS-2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_UTA-1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/svg/House_UTA-2.svg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/404.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/404.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/LICENSE" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/README.md" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/all.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/all.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/archive.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/archive.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/comments.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/comments.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/footer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/front.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/front.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/header.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/LightWood11x17.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/LightWood11x17.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/brownLayer.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/brownLayer.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/brownLayer.png" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/brownLayer.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/images/brownLayer8.png" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/images/brownLayer8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/inc/custom-header.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/inc/custom-header.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/inc/customizer.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/inc/customizer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/inc/jetpack.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/inc/jetpack.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/inc/template-functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/inc/template-functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/inc/template-tags.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/inc/template-tags.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/skip-link-focus-fix.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/js/skip-link-focus-fix.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/typekit.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/js/typekit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/json/locations.json" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/json/locations.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/languages/readme.txt" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/languages/readme.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/languages/texsite.pot" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/languages/texsite.pot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/layouts/content-sidebar.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/layouts/content-sidebar.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/layouts/sidebar-content.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/layouts/sidebar-content.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/locations.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/locations.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/page.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_BR.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_BR.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_CO.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_CO.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_FR.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_FR.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_GH.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_GH.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_LL.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_LL.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_LR.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_LR.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_MC.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_MC.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_OT.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_OT.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_PL.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_PL.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_RI.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_RI.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_SS.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_SS.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_UTA.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_UTA.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/Catering_WE.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/Catering_WE.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_BR.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_BR.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_CO.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_CO.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_FR.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_FR.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_GH.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_GH.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_LL.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_LL.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_LR.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_LR.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_MC.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_MC.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_OT.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_OT.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_PL.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_PL.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_RI.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_RI.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_SS.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_SS.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_UTA.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_UTA.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/pdf/House_WE.pdf" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/pdf/House_WE.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/phpcs.xml.dist" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/phpcs.xml.dist" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/readme.txt" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/readme.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/rtl.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/rtl.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/screenshot.png" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/screenshot.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/search.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/search.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sidebar-about.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/sidebar-about.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sidebar-catering.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/sidebar-catering.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sidebar-frontpage.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/sidebar-frontpage.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sidebar-header.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/sidebar-header.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sidebar-locations.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/sidebar-locations.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sidebar-texnation.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/sidebar-texnation.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/sidebar.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/single.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/single.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content-none.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/template-parts/content-none.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/template-parts/content-page.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content-search.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/template-parts/content-search.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteA/template-parts/content.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/maps/style.css.map" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/maps/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsiteO/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteO/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -406,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_front-page.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_front-page.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/frontpage/_front-page.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -416,11 +27,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_contact.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -464,10 +95,10 @@
       <find>instagramApi.js</find>
       <find>locations.js</find>
       <find>.tex-star</find>
-      <find>frontpage</find>
       <find>franchising</find>
       <find>tex-star</find>
       <find>fa</find>
+      <find>frontpage</find>
     </findStrings>
     <replaceStrings>
       <replace>slider-caption</replace>
@@ -486,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/addAPIjsonp.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/secondary/_widgets.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/primary/_posts-and-pages.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/forms/_fields.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/elements/_lists.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/svg/menu.svg" />
@@ -500,7 +128,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/variables-site/_colors.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationsTemplate.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationTemplate.js" />
-        <option value="$USER_HOME$/Desktop/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/typography/_typography.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/svg-pan-zoom.js" />
@@ -537,6 +164,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/template-parts/content-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/franchising/_franchising.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/frontpage/_front-page.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/functions.php" />
+        <option value="$USER_HOME$/Desktop/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss" />
       </list>
     </option>
   </component>
@@ -557,9 +188,9 @@
     <handled-path value="$PROJECT_DIR$/wp-content/themes/gulp-dev/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-1889" />
-    <option name="y" value="18" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1789" />
+    <option name="y" value="76" />
     <option name="width" value="1711" />
     <option name="height" value="1040" />
   </component>
@@ -649,6 +280,14 @@
               <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="frontpage" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="texsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="texsite" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="texsiteO" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template-parts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -725,15 +364,15 @@
       <workItem from="1507495654185" duration="793000" />
       <workItem from="1507498285677" duration="30618000" />
       <workItem from="1507901672743" duration="587000" />
-      <workItem from="1508871590570" duration="36770000" />
+      <workItem from="1508871590570" duration="41045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="435095000" />
+    <option name="totallyTimeSpent" value="439370000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1889" y="18" width="1711" height="1040" extended-state="1" />
+    <frame x="-1789" y="76" width="1711" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45545724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -766,15 +405,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/searchLocation.js" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/renderLocations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="6" lean-forward="false" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/renderMenu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -1017,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/js/instagramAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <marker date="1509078590647" expanded="true" signature="966:976" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/front.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1091,14 +711,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteA/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1123,18 +735,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/frontpage/_front-page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="268" column="1" lean-forward="false" selection-start-line="268" selection-start-column="1" selection-end-line="268" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/js/instagramAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <marker date="1509078590647" expanded="true" signature="966:976" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="269" column="0" lean-forward="true" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
