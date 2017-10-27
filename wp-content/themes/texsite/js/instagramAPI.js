@@ -1,9 +1,3 @@
-/**
- * File header.js.
- *
- * scripts for header elements
- *
- */
 
 
 function getInstagram(data) {
