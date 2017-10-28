@@ -10,6 +10,7 @@ function loadMapsScript() {
         });
 
         Google_Maps_API_Script.onload = function () {
+            console.log('google maps script loaded');
 
             var g_map = GoogleMap();
 
@@ -95,7 +96,7 @@ function loadMapsScript() {
 
     Google_Maps_API_Script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk";
 
-    document.head.appendChild(Google_Maps_API_Script);
+    document.body.appendChild(Google_Maps_API_Script);
 }
 
 loadMapsScript();
