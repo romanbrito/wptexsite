@@ -1,6 +1,4 @@
 function loadMapsScript() {
-    var Google_Maps_API_Script = document.createElement('script');
-
 
     $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
 
@@ -93,10 +91,4 @@ function loadMapsScript() {
         });
 
     });
-
-    Google_Maps_API_Script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk";
-
-    document.body.appendChild(Google_Maps_API_Script);
 }
-
-loadMapsScript();
