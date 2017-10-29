@@ -41,8 +41,7 @@ function GoogleMap() {
         });
 
         // Add a marker clusterer to manage the markers.
-        var MarkerClustererScript = document.createElement('script');
-        MarkerClustererScript.onload = function () {
+        $.getScript("https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js", function () {
 
             var markerCluster = new MarkerClusterer(map, markers,
                 {
@@ -50,9 +49,7 @@ function GoogleMap() {
                     imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
                 });
 
-        };
-        MarkerClustererScript.src = "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js";
-        document.head.appendChild(MarkerClustererScript);
+        });
 
     }
 

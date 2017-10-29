@@ -7,7 +7,7 @@ function loadMapsScript() {
             return current_location.coordinates;
         });
 
-        Google_Maps_API_Script.onload = function () {
+        $.getScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk",function () {
             console.log('google maps script loaded');
 
             var g_map = GoogleMap();
@@ -59,7 +59,7 @@ function loadMapsScript() {
 
                 });
             });
-        };
+        });
 
         Location.renderLocations(data.locations, function () {
 
@@ -92,3 +92,5 @@ function loadMapsScript() {
 
     });
 }
+
+loadMapsScript();

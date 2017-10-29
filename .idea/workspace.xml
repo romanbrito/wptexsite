@@ -4,6 +4,8 @@
     <list default="true" id="8ad1acf0-9ac2-4b4b-a842-7e6bc8347e9d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/texsite/locations.js" afterPath="$PROJECT_DIR$/wp-content/themes/texsite/locations.js" />
     </list>
@@ -15,14 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3947761">
+    <splitter split-orientation="horizontal" split-proportion="0.30149254">
       <split-first>
         <leaf>
-          <file leaf-file-name="Gulpfile.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Gulpfile.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/gulp-dev/Gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-638">
-                  <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+                <state relative-caret-position="13">
+                  <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -58,11 +60,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="locationsInit.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js">
+          <file leaf-file-name="googleMaps.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="23" />
+                <state relative-caret-position="302">
+                  <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
                   <folding />
                 </state>
               </provider>
@@ -72,11 +74,64 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="renderMenu.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/renderMenu.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1508807429240" expanded="true" signature="471:478" ph="×" />
+                    <marker date="1508807429240" expanded="true" signature="1320:1331" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="renderLocations.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/renderLocations.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="geolocation.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/geolocation.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="locationsInit.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="220" column="6" lean-forward="true" selection-start-line="220" selection-start-column="6" selection-end-line="220" selection-end-column="6" />
+                <state relative-caret-position="251">
+                  <caret line="211" column="8" lean-forward="false" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -96,7 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>list</find>
       <find>center</find>
       <find>marker</find>
       <find>get</find>
@@ -126,6 +180,7 @@
       <find>body</find>
       <find>console.lo</find>
       <find>locations</find>
+      <find>load</find>
     </findStrings>
     <replaceStrings>
       <replace>slider-caption</replace>
@@ -158,7 +213,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationMap.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/svg-pan-zoom.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sidebar-about.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/about/_about.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/catering/_catering.scss" />
         <option value="$USER_HOME$/Desktop/.htaccess" />
@@ -171,7 +225,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/sass/site/locations-menu/_locations.scss" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/geolocation.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/renderLocations.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/renderMenu.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/json/locations.json" />
@@ -191,10 +244,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/404.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/gulp-dev/Gulpfile.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/texsite/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/gulp-dev/Gulpfile.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/texsite/header.php" />
       </list>
     </option>
   </component>
@@ -216,8 +271,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1935" />
-    <option name="y" value="28" />
+    <option name="x" value="-14" />
+    <option name="y" value="-9" />
     <option name="width" value="1711" />
     <option name="height" value="1040" />
   </component>
@@ -379,10 +434,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444701000" />
+    <option name="totallyTimeSpent" value="450281000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -392,7 +447,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29787233" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31045407" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -415,20 +470,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteA/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/contact/_contact.scss" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/sass/site/_site.scss" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteA/images/Catering_BR.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteA/json/locations.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
@@ -491,7 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/instagramAPI.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteA/index.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -500,13 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/front.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="358" lean-forward="false" selection-start-line="0" selection-start-column="358" selection-end-line="0" selection-end-column="358" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/front.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteA/template-parts/content-page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -514,41 +548,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/about/_about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/catering/_catering.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1369">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/footer/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/_site.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-553">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/about/_about.scss" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/catering/_catering.scss" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/footer/_footer.scss" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/_site.scss" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/style.css" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteA/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -563,20 +567,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/franchising/_franchising.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/frontpage/_front-page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/franchising/_franchising.scss" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/frontpage/_front-page.scss" />
     <entry file="file://$USER_HOME$/Desktop/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
@@ -584,56 +576,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/js/instagramAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4471">
-          <caret line="269" column="0" lean-forward="false" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-none.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/js/instagramAPI.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/functions.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/sass/site/contact/_contact.scss" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-page.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/404.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsiteO/template-parts/content-none.php" />
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -659,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
@@ -698,26 +646,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/gulp-dev/Gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/geolocation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/renderMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508807429240" expanded="true" signature="471:478" ph="×" />
+            <marker date="1508807429240" expanded="true" signature="1320:1331" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/renderLocations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/googleMaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="47" column="8" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/js/locationsInit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/gulp-dev/Gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="72" column="21" lean-forward="false" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="220" column="6" lean-forward="true" selection-start-line="220" selection-start-column="6" selection-end-line="220" selection-end-column="6" />
+        <state relative-caret-position="251">
+          <caret line="211" column="8" lean-forward="false" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/texsite/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
       </provider>

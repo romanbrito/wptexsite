@@ -210,7 +210,6 @@ function texsite_scripts()
     if (is_page('locations-menu')) :
         wp_enqueue_script('last-jquery', 'https://code.jquery.com/jquery-3.2.1.min.js', array(), null, true);
         wp_enqueue_script('googleMaps', get_template_directory_uri() . '/locations.js', array(), 10202017, true);
-        wp_enqueue_script('googleMaps-api', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk&callback=loadMapsScript', array(), null, true);
     endif; // End locations page
     //
 
