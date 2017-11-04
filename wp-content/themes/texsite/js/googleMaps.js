@@ -7,7 +7,7 @@ function GoogleMap() {
         var bounds = new google.maps.LatLngBounds();
 
         //center and fit to bounds
-        data.locations.map(function (location, i) {
+        data.map(function (location, i) {
             var loc = new google.maps.LatLng(location.coordinates);
             bounds.extend(loc);
             google_map.fitBounds(bounds);
@@ -22,7 +22,7 @@ function GoogleMap() {
 
     function addMarkers(map, data) {
         // Add markers
-        var markers = data.locations.map(function (location, i) {
+        var markers = data.map(function (location, i) {
 
             // adding markers
             return new google.maps.Marker({
@@ -34,7 +34,7 @@ function GoogleMap() {
         });
 
         // Add links to markers to open in google maps for directions
-        var gMapsClick = data.locations.map(function (location, i) {
+        var gMapsClick = data.map(function (location, i) {
             return markers[i].addListener('click', function () {
                 window.open('https://www.google.com/maps/dir/?api=1&destination=' + location.coordinates.lat + ',' + location.coordinates.lng, '_blank');
             });

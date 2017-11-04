@@ -1,7 +1,7 @@
 function loadMapsScript(data) {
 
     // locations coordinates array
-    var destinations = data.locations.map(function (current_location, index) {
+    var destinations = data.map(function (current_location, index) {
         return current_location.coordinates;
     });
 
@@ -19,9 +19,9 @@ function loadMapsScript(data) {
             g_map.getDistance(current_position, destinations, function (distance) {
 
                 var location_distance = distance.map(function (element, index) { // merging distance with locations array
-                    data.locations[index].distance = element.distance.value;
-                    data.locations[index].miles = element.distance.text;
-                    return data.locations[index];
+                    data[index].distance = element.distance.value;
+                    data[index].miles = element.distance.text;
+                    return data[index];
                 }).sort(function (a, b) {  // sorting locations array
                     return a.distance - b.distance;
                 });
@@ -41,7 +41,7 @@ function loadMapsScript(data) {
                     });
                 });
 
-                Location.searchLocations(data.locations, function () {
+                Location.searchLocations(data, function () {
                     var $menu = $("[rel*='Menu-']");
 
                     $menu.click(function (evt) {
@@ -59,7 +59,7 @@ function loadMapsScript(data) {
         });
     });
 
-    Location.renderLocations(data.locations, function () {
+    Location.renderLocations(data, function () {
 
         var $menu = $("[rel*='Menu-']");
 
@@ -74,7 +74,7 @@ function loadMapsScript(data) {
         });
     });
 
-    Location.searchLocations(data.locations, function () {
+    Location.searchLocations(data, function () {
         var $menu = $("[rel*='Menu-']");
 
         $menu.click(function (evt) {

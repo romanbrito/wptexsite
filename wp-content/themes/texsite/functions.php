@@ -207,7 +207,7 @@ function texsite_scripts()
     wp_enqueue_script('texsite-navigation', get_template_directory_uri() . '/all.js', array('jquery'), '20170804', true);
 
     // location map scripts
-    if (is_page('locations-menu')) :
+    if (!is_page('we-cater') or !is_page('contact-us') or !is_page('franchising') or !is_page('texnation-loyalty-program') or !is_page('about-us')) :
         wp_enqueue_script('last-jquery', 'https://code.jquery.com/jquery-3.2.1.min.js', array(), null, true);
         wp_enqueue_script('googleMaps', get_template_directory_uri() . '/locations.js', array(), 10202017, true);
     endif; // End locations page

@@ -12,10 +12,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
         <?php
-        // do not show title on locations and menu page, About us and Franchising
-        if (!is_front_page() and !is_page('locations-menu') and !is_page('about-us') and !is_page('we-cater') and !is_page('franchising') and !is_page('texnation-loyalty-program') and !is_page('contact-us')):
-        the_title('<h1 class="entry-title">', '</h1>');
-        endif;
+        // do not show title anywhere (on locations and menu page, About us and Franchising)
+        // if (!is_front_page() and !is_page('locations-menu') and !is_page('about-us') and !is_page('we-cater') and !is_page('franchising') and !is_page('texnation-loyalty-program') and !is_page('contact-us')):
+        // the_title('<h1 class="entry-title">', '</h1>');
+        // endif;
 
         ?>
     </header><!-- .entry-header -->
