@@ -4,7 +4,7 @@ var Location = (function ($) {
 
         var output = '<ul class="searchresults">';
         $.each(locations, function (key, val) {
-            output += get_output(val); // function
+            output += get_output(val, key); // function
         });
         output += '</ul>';
         $('#update').html(output);
@@ -24,7 +24,7 @@ var Location = (function ($) {
                     (val.state.search(myExp) != -1) ||
                     (val.city.search(myExp) != -1)) {
 
-                    output += get_output(val); // function
+                    output += get_output(val, key); // function
                 }
             });
             output += '</ul>';
@@ -34,7 +34,7 @@ var Location = (function ($) {
         });
     }
 
-    function get_output(val) {
+    function get_output(val, key) {
         var output = '';
 
         output += '<li>';
@@ -55,8 +55,8 @@ var Location = (function ($) {
 
         output += '<div class="location-buttons col-lg-6">';
         output += '<div class="row">';
-        output += '<a rel="Menu-House-' + val.label + '-' + val.name + '" class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'HouseModal"> Menu</a>';
-        output += '<a rel="Menu-Catering-' + val.label + '-' + val.name + '" class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'CateringModal"> Catering Menu</a>';
+        output += '<a rel="Menu-House-' + val.label + '-' + val.name + '-' + key + '" class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'HouseModal"> Menu</a>';
+        output += '<a rel="Menu-Catering-' + val.label + '-' + val.name + '-' + key + '" class="btn btn-default col-lg-6 col-md-6 col-sm-6 col-xs-6" role="button" data-toggle="modal" data-target="' + '#' + val.label + 'CateringModal"> Catering Menu</a>';
         output += '</div>';
         output += '<div class="row">';
         output += '<a class="btn btn-danger" href="https://www.google.com/maps/dir/?api=1&destination=' + val.coordinates.lat + ',' + val.coordinates.lng + '" target="_blank" role="button"> Directions</a>';

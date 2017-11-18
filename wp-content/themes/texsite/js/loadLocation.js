@@ -5,7 +5,7 @@ function loadMapsScript(data) {
         return current_location.coordinates;
     });
 
-    $.getScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk",function () {
+    $.getScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyBZAdtCTX8ZlyU39tML3S_dOmmWWAh6cdk", function () {
         console.log('google maps script loaded');
 
         var g_map = GoogleMap();
@@ -27,32 +27,11 @@ function loadMapsScript(data) {
                 });
 
                 Location.renderLocations(location_distance, function () {
-
-                    var $menu = $("[rel*='Menu-']");
-
-                    $menu.click(function (evt) {
-                        var rel_elements = $(evt.target).attr("rel").split("-");
-                        var menu_type = rel_elements[1];
-                        var label = rel_elements[2];
-                        var name = rel_elements[3];
-
-                        Menu.renderMenu(menu_type, label, name);
-
-                    });
+                    menuClickEvent(data);
                 });
 
                 Location.searchLocations(data, function () {
-                    var $menu = $("[rel*='Menu-']");
-
-                    $menu.click(function (evt) {
-                        var rel_elements = $(evt.target).attr("rel").split("-");
-                        var menu_type = rel_elements[1];
-                        var label = rel_elements[2];
-                        var name = rel_elements[3];
-
-                        Menu.renderMenu(menu_type, label, name);
-
-                    });
+                    menuClickEvent(data)
                 });
 
             });
@@ -60,31 +39,27 @@ function loadMapsScript(data) {
     });
 
     Location.renderLocations(data, function () {
-
-        var $menu = $("[rel*='Menu-']");
-
-        $menu.click(function (evt) {
-            var rel_elements = $(evt.target).attr("rel").split("-");
-            var menu_type = rel_elements[1];
-            var label = rel_elements[2];
-            var name = rel_elements[3];
-
-            Menu.renderMenu(menu_type, label, name);
-
-        });
+        menuClickEvent(data);
     });
 
     Location.searchLocations(data, function () {
-        var $menu = $("[rel*='Menu-']");
+        menuClickEvent(data);
+    });
+}
 
-        $menu.click(function (evt) {
-            var rel_elements = $(evt.target).attr("rel").split("-");
-            var menu_type = rel_elements[1];
-            var label = rel_elements[2];
-            var name = rel_elements[3];
+function menuClickEvent(data) {
+    var $menu = $("[rel*='Menu-']");
 
-            Menu.renderMenu(menu_type, label, name);
+    $menu.click(function (evt) {
+        var rel_elements = $(evt.target).attr("rel").split("-");
+        var menu_type = rel_elements[1];
+        var label = rel_elements[2];
+        var name = rel_elements[3];
+        var arrPos = rel_elements[4];
 
-        });
+        var menuArr = (menu_type === 'House') ? data[arrPos].houseMenuUrl : data[arrPos].cateringMenuUrl;
+
+        Menu.renderMenu(menu_type, label, name, menuArr);
+
     });
 }

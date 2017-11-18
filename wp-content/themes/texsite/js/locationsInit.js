@@ -1,5 +1,4 @@
 var GETinfo = window.location.href.split('/');
-console.log(GETinfo[3]);
 if (GETinfo[3] === "locations-menu") {
     $.getJSON('../wp-content/themes/texsite/json/locations.json', function (data) {
         loadMapsScript(data.locations);

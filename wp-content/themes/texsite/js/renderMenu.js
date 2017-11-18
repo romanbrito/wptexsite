@@ -1,6 +1,6 @@
 var Menu = (function ($) {
     // menu_type: House or Catering
-    function renderMenu(menu_type, label, name) {
+    function renderMenu(menu_type, label, name, menuArr) {
 
         var output = '';
 
@@ -13,7 +13,13 @@ var Menu = (function ($) {
         output += '</div>';
         output += '<div class="modal-body">';
         output += '<div class="smaller-screen-locations">';
-        output += '<img src="../wp-content/themes/texsite/images/' + menu_type + '_' + label + '.jpg" alt="' + menu_type + ' menu" width="100%">';
+
+        menuArr.map(function (menuUrl) {
+            return output += '<img src="../wp-content/themes/texsite/images/' + menuUrl + '.jpg" alt="' + menuUrl + ' menu" width="100%"> <p></p>';
+        });
+
+        //output += '<img src="../wp-content/themes/texsite/images/' + menu_type + '_' + label + '.jpg" alt="' + menu_type + ' menu" width="100%">';
+
         output += '</div>';
         output += '<div class="large-screen-locations">';
         output += '<object rel="pdf-' + menu_type + '-' + label + '" id="' + label + '-' + menu_type + '-pdf" class="pdf-image" type="application/pdf" data="../wp-content/themes/texsite/pdf/' + menu_type + '_' + label + '.pdf" style="width: 100%">';

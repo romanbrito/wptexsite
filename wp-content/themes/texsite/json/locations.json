@@ -58,7 +58,7 @@
       "cateringMenuUrl": ["Catering_SS-1", "Catering_SS-2"]
     },
     {
-      "name": "Frisco-Warren Pkwy",
+      "name": "Frisco_Warren Pkwy",
       "address": "6801 Warren Pkwy #125",
       "city": "Frisco",
       "state": "TX",
@@ -229,7 +229,7 @@
       "cateringMenuUrl": ["Catering_MC"]
     },
     {
-      "name": "Houston-Westheimer",
+      "name": "Houston_Westheimer",
       "address": "8383 WESTHEIMER RD",
       "city": "Houston",
       "state": "TX",
