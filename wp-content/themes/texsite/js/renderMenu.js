@@ -18,8 +18,6 @@ var Menu = (function ($) {
             return output += '<img src="../wp-content/themes/texsite/images/' + menuUrl + '.jpg" alt="' + menuUrl + ' menu" width="100%"> <p></p>';
         });
 
-        //output += '<img src="../wp-content/themes/texsite/images/' + menu_type + '_' + label + '.jpg" alt="' + menu_type + ' menu" width="100%">';
-
         output += '</div>';
         output += '<div class="large-screen-locations">';
         output += '<object rel="pdf-' + menu_type + '-' + label + '" id="' + label + '-' + menu_type + '-pdf" class="pdf-image" type="application/pdf" data="../wp-content/themes/texsite/pdf/' + menu_type + '_' + label + '.pdf" style="width: 100%">';

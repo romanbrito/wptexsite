@@ -2,17 +2,17 @@ function GoogleMap() {
 
     function getGoogleMaps(data) {
 
-        //map and bounds
-        var google_map = new google.maps.Map(document.getElementById('map'));
-        var bounds = new google.maps.LatLngBounds();
+            //map and bounds
+            var google_map = new google.maps.Map(document.getElementById('map'));
+            var bounds = new google.maps.LatLngBounds();
 
-        //center and fit to bounds
-        data.map(function (location, i) {
-            var loc = new google.maps.LatLng(location.coordinates);
-            bounds.extend(loc);
-            google_map.fitBounds(bounds);
-            google_map.panToBounds(bounds);
-        });
+            //center and fit to bounds
+            data.map(function (location, i) {
+                var loc = new google.maps.LatLng(location.coordinates);
+                bounds.extend(loc);
+                google_map.fitBounds(bounds);
+                google_map.panToBounds(bounds);
+            });
 
         return {
             map: google_map

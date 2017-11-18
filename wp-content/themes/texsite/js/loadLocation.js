@@ -27,7 +27,7 @@ function loadMapsScript(data) {
                 });
 
                 Location.renderLocations(location_distance, function () {
-                    menuClickEvent(data);
+                    menuClickEvent(location_distance);
                 });
 
                 Location.searchLocations(data, function () {
