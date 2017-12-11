@@ -1614,6 +1614,80 @@ select#input_1_3_3 {
 }
 
 /*--------------------------------------------------------------
+## contact us page
+--------------------------------------------------------------*/
+.news h2 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.news p {
+	font-size: 1.5rem;
+}
+
+.news a:visited, .news a:hover, .news a:active, .news a:focus {
+	text-decoration: none;
+}
+
+.news .lib-panel {
+	margin-bottom: 20Px;
+}
+
+.news .lib-panel img {
+	width: 100%;
+	background-color: transparent;
+}
+
+.news .lib-panel .row,
+.news .lib-panel .col-md-6 {
+	padding: 0;
+	/*background-color: #FFFFFF;*/
+}
+
+.news .lib-panel .lib-row {
+	padding: 0 20px 0 20px;
+}
+
+.news .lib-panel .lib-row.lib-header {
+	/*background-color: #FFFFFF;*/
+	font-size: 20px;
+	padding: 10px 20px 0 20px;
+}
+
+.news .lib-panel .lib-row.lib-header .lib-header-seperator {
+	height: 2px;
+	width: 26px;
+	background-color: #d9d9d9;
+	margin: 7px 0 7px 0;
+}
+
+.news .lib-panel .lib-row.lib-desc {
+	position: relative;
+	height: 100%;
+	display: block;
+	font-size: 13px;
+}
+
+.news .lib-panel .lib-row.lib-desc a {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	left: 20px;
+}
+
+.news .row-margin-bottom {
+	margin-bottom: 20px;
+}
+
+.news .box-shadow {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.news .no-padding {
+	padding: 0;
+}
+
+/*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
 .widget {

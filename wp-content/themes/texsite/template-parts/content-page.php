@@ -61,6 +61,12 @@
     <?php endif; // End about page ?>
     <!-- -->
 
+    <!-- display only in news-->
+    <?php if (is_page('news')) : ?>
+        <?php get_sidebar('news'); ?>
+    <?php endif; // End about page ?>
+    <!-- -->
+
     <?php if (get_edit_post_link()) : ?>
         <footer class="entry-footer">
             <?php
