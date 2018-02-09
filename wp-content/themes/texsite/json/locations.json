@@ -7,9 +7,9 @@
       "state": "TX",
       "zip": "78759",
       "phone": "512-338-1338",
-      "hours1": "Mon-Sat 11am - 9pm",
-      "hours2": "Sun 11am - 6pm",
-      "hours3": "",
+      "hours1": "Mon-Fri 10:30am - 8pm",
+      "hours2": "Sat 11am - 8pm",
+      "hours3": "Sun 11am - 6pm",
       "place_id": "",
       "label": "GH",
       "coordinates": {
@@ -243,6 +243,25 @@
       "coordinates": {
         "lat": 29.7368233,
         "lng": -95.513883
+      },
+      "houseMenuUrl": ["House_WE"],
+      "cateringMenuUrl": ["Catering_WE"]
+    },
+          {
+      "name": "Denton",
+      "address": "1120 West Hickory",
+      "city": "Denton",
+      "state": "TX",
+      "zip": "76201",
+      "phone": "940-514-1067",
+      "hours1": "Sun-Wed 11am-10pm",
+      "hours2": "Thur-Sat 11am-midnight",
+      "hours3": "",
+      "place_id": "",
+      "label": "WE",
+      "coordinates": {
+        "lat": 33.214837,
+        "lng": -97.145049
       },
       "houseMenuUrl": ["House_WE"],
       "cateringMenuUrl": ["Catering_WE"]
